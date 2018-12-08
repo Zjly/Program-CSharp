@@ -6,17 +6,26 @@ using System.IO;
 namespace Program2 {
 	internal class Program {
 		public static void Main(params string[] args) {
-			Bitmap image = new Bitmap(@"C:\Users\94247\Desktop\test2.jpg"); // 获取图片
+			Recognition(@"C:\Users\94247\Desktop\test4.jpg");
+		}
+
+		private static string Recognition(string path) {
+			Bitmap image = new Bitmap(path); // 获取图片
 			byte[,] matrix = new byte[image.Width, image.Height]; // 保存图片的矩阵
 			int[] result = new int[4]; // 四个字母所填充的数字
 			ToGray(image); // 图片灰度化
 			Binaryzation(image); // 图片二值化
 			SaveToMatrix(image, matrix); // 将图片存入矩阵
 			NoiseRemovalProcessing(image, matrix); // 去除图片噪点
-			Fill(matrix, result);
-			Divide(matrix, result);
-			//Display(matrix);
+			Fill(matrix, result); // 将验证码中四个字母填充上不同的数字
+			Divide(matrix, result); // 分割四个字符
+
+			image = new Bitmap(@"C:\Users\94247\Desktop\3.jpg");
+			matrix = new byte[image.Width, image.Height];
+			SaveToMatrix(image, matrix); // 将图片存入矩阵
+			Display(matrix);
 			//image.Save(@"C:\Users\94247\Desktop\testResult.jpg");
+			return "";
 		}
 
 		// 图片灰度化
@@ -201,7 +210,7 @@ namespace Program2 {
 			RemoveNoise(image, matrix, 7);
 		}
 
-		private static int num = 0;
+		private static int num = 0; // 黑点的个数，通过与一个阈值的比较，确定是噪点还是字母
 
 		// 分割验证码
 		private static void Fill(byte[,] matrix, int[] result) {
@@ -209,6 +218,7 @@ namespace Program2 {
 			int nHeight = matrix.GetLength(1);
 			byte color = 0; // 待填充颜色
 			int resultNum = 0;
+			// 对向量黑点进行填充数字
 			for(int i = 0; i < nWidth; i++) {
 				for(int j = 0; j < nHeight; j++) {
 					if(matrix[i, j] == 0) {
@@ -237,20 +247,20 @@ namespace Program2 {
 		}
 
 		// 分割字符
-        private static void Divide(byte[,] matrix, int[] result) {
+		private static void Divide(byte[,] matrix, int[] result) {
 			for(int k = 0; k < result.Length; k++) {
 				int color = result[k];
 				DivideToImage(matrix, color, k + 1);
 			}
 		}
 
-		// 放入图片中
+		// 分割字符并放入图片中
 		private static void DivideToImage(byte[,] matrix, int color, int count) {
 			int nWidth = matrix.GetLength(0);
 			int nHeight = matrix.GetLength(1);
 			int left = nWidth, right = 0, up = nHeight, down = 0;
 			// 找到边界
-            for (int i = 0; i < nWidth; i++) {
+			for(int i = 0; i < nWidth; i++) {
 				for(int j = 0; j < nHeight; j++) {
 					if(matrix[i, j] == color) {
 						if(i < left) {
@@ -271,21 +281,24 @@ namespace Program2 {
 					}
 				}
 			}
+			int width = right - left;
+			int height = down - up;
 
-			// 统一格式为20*20
-            Bitmap image = new Bitmap(20, 20);
-			int widthEdge = (20 - (right - left)) / 2;
-			int heightEdge = (20 - (down - up)) / 2;
-			// 存入图片
-            for (int i = 0; i <= right - left; i++) {
-				for(int j = 0; j <= down - up; j++) {
+			Bitmap image = new Bitmap(width, height);
+			for (int i = 0; i < width; i++) {
+				for (int j = 0; j < height; j++) {
+					image.SetPixel(i, j, Color.White);
+				}
+			}
+            for (int i = 0; i < width; i++) {
+				for(int j = 0; j < height; j++) {
 					if(matrix[i + left, j + up] == color) {
-						image.SetPixel(i + widthEdge, j + heightEdge, Color.Black);
+						image.SetPixel(i, j, Color.Black);
 					}
 				}
 			}
 
-			string path = count + ".jpg";
+			string path = @"C:\Users\94247\Desktop\" + count + ".jpg";
 			image.Save(path);
 		}
 	}
