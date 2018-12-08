@@ -9,3 +9,14 @@ E:\Coding\C#\Program\Program1\obj\Debug\Program1.csproj.CoreCompileInputs.cache
 E:\Coding\C#\Program\Program1\obj\Debug\Program1.csproj.CopyComplete
 E:\Coding\C#\Program\Program1\obj\Debug\Program1.exe
 E:\Coding\C#\Program\Program1\obj\Debug\Program1.pdb
+E:\Coding\GitHub\Program\Character recognition\Program1\bin\Debug\Program1.exe.config
+E:\Coding\GitHub\Program\Character recognition\Program1\bin\Debug\Program1.exe
+E:\Coding\GitHub\Program\Character recognition\Program1\bin\Debug\Program1.pdb
+E:\Coding\GitHub\Program\Character recognition\Program1\bin\Debug\AipSdk.dll
+E:\Coding\GitHub\Program\Character recognition\Program1\bin\Debug\Newtonsoft.Json.dll
+E:\Coding\GitHub\Program\Character recognition\Program1\bin\Debug\Newtonsoft.Json.xml
+E:\Coding\GitHub\Program\Character recognition\Program1\obj\Debug\Program1.csprojAssemblyReference.cache
+E:\Coding\GitHub\Program\Character recognition\Program1\obj\Debug\Program1.csproj.CoreCompileInputs.cache
+E:\Coding\GitHub\Program\Character recognition\Program1\obj\Debug\Program1.csproj.CopyComplete
+E:\Coding\GitHub\Program\Character recognition\Program1\obj\Debug\Program1.exe
+E:\Coding\GitHub\Program\Character recognition\Program1\obj\Debug\Program1.pdb

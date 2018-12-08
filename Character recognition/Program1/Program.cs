@@ -12,11 +12,11 @@ namespace Program1 {
 		static void Main(string[] args) {
 			var client = GetClient();
 
-			string result = GetResult(client, @"C:\Users\94247\Desktop\车牌.jpg");
+			string result = GetResult(client, @"E:\Coding\GitHub\Program\Character recognition\Program2\image\test4.jpg");
 
 			string[] strings = ExtractWord(result);
 
-			SaveToFile(@"C:\Users\94247\Desktop\test.txt", strings);
+			SaveToFile(@"E:\Coding\GitHub\Program\Character recognition\Program2\image\result.txt", strings);
 		}
 
 		// 获取百度AI识别客户端

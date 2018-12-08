@@ -6,7 +6,7 @@ using System.IO;
 namespace Program2 {
 	internal class Program {
 		public static void Main(params string[] args) {
-			Recognition(@"C:\Users\94247\Desktop\test4.jpg");
+			Recognition(@"E:\Coding\GitHub\Program\Character recognition\Program2\image\test2.jpg");
 		}
 
 		private static string Recognition(string path) {
@@ -17,10 +17,11 @@ namespace Program2 {
 			Binaryzation(image); // 图片二值化
 			SaveToMatrix(image, matrix); // 将图片存入矩阵
 			NoiseRemovalProcessing(image, matrix); // 去除图片噪点
+			Display(matrix);
 			Fill(matrix, result); // 将验证码中四个字母填充上不同的数字
 			Divide(matrix, result); // 分割四个字符
 
-			image = new Bitmap(@"C:\Users\94247\Desktop\3.jpg");
+			image = new Bitmap(@"E:\Coding\GitHub\Program\Character recognition\Program2\image\2.jpg");
 			matrix = new byte[image.Width, image.Height];
 			SaveToMatrix(image, matrix); // 将图片存入矩阵
 			Display(matrix);
@@ -281,16 +282,18 @@ namespace Program2 {
 					}
 				}
 			}
-			int width = right - left;
-			int height = down - up;
+
+			int width = right - left + 1;
+			int height = down - up + 1;
 
 			Bitmap image = new Bitmap(width, height);
-			for (int i = 0; i < width; i++) {
-				for (int j = 0; j < height; j++) {
+			for(int i = 0; i < width; i++) {
+				for(int j = 0; j < height; j++) {
 					image.SetPixel(i, j, Color.White);
 				}
 			}
-            for (int i = 0; i < width; i++) {
+
+			for(int i = 0; i < width; i++) {
 				for(int j = 0; j < height; j++) {
 					if(matrix[i + left, j + up] == color) {
 						image.SetPixel(i, j, Color.Black);
@@ -298,7 +301,7 @@ namespace Program2 {
 				}
 			}
 
-			string path = @"C:\Users\94247\Desktop\" + count + ".jpg";
+			string path = @"E:\Coding\GitHub\Program\Character recognition\Program2\image\" + count + ".jpg";
 			image.Save(path);
 		}
 	}
