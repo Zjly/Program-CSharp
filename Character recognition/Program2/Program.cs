@@ -5,28 +5,41 @@ using System.IO;
 
 namespace Program2 {
 	internal class Program {
-		public static void Main(params string[] args) {
-			Recognition(@"E:\Coding\GitHub\Program\Character recognition\Program2\image\test2.jpg");
+		private static byte[,] matrix;
+
+        public static void Main(params string[] args) {
+			GetTemplate();
 		}
 
-		private static string Recognition(string path) {
+//		private static void GetTemplate() {
+//			for(int i = 1; i <= 20; i++) {
+//				string s = @"E:\Coding\GitHub\Program\Character recognition\Program2\image\test image\";
+//				s += i;
+//				s += ".jpg";
+//				Recognition(s, i);
+//			}
+//		}
+
+		private static void GetTemplate() {
+			string path = @"E:\Coding\GitHub\Program\Character recognition\Program2\image\test image1";
+			var files = Directory.GetFiles(path, "*.jpg");
+			foreach(var file in files) {
+				string code = file.Replace(@"E:\Coding\GitHub\Program\Character recognition\Program2\image\test image1\", "");
+				code = code.Replace(".jpg", "");
+				Recognition(file, code);
+            }
+        }
+
+        private static void Recognition(string path, string code) {
 			Bitmap image = new Bitmap(path); // 获取图片
-			byte[,] matrix = new byte[image.Width, image.Height]; // 保存图片的矩阵
+			matrix = new byte[image.Width, image.Height]; // 保存图片的矩阵
 			int[] result = new int[4]; // 四个字母所填充的数字
 			ToGray(image); // 图片灰度化
 			Binaryzation(image); // 图片二值化
 			SaveToMatrix(image, matrix); // 将图片存入矩阵
 			NoiseRemovalProcessing(image, matrix); // 去除图片噪点
-			Display(matrix);
 			Fill(matrix, result); // 将验证码中四个字母填充上不同的数字
-			Divide(matrix, result); // 分割四个字符
-
-			image = new Bitmap(@"E:\Coding\GitHub\Program\Character recognition\Program2\image\2.jpg");
-			matrix = new byte[image.Width, image.Height];
-			SaveToMatrix(image, matrix); // 将图片存入矩阵
-			Display(matrix);
-			//image.Save(@"C:\Users\94247\Desktop\testResult.jpg");
-			return "";
+			Divide(matrix, result, code); // 分割四个字符
 		}
 
 		// 图片灰度化
@@ -248,15 +261,15 @@ namespace Program2 {
 		}
 
 		// 分割字符
-		private static void Divide(byte[,] matrix, int[] result) {
+		private static void Divide(byte[,] matrix, int[] result, string code) {
 			for(int k = 0; k < result.Length; k++) {
 				int color = result[k];
-				DivideToImage(matrix, color, k + 1);
+				DivideToImage(matrix, color, k + 1, code[k]);
 			}
 		}
 
 		// 分割字符并放入图片中
-		private static void DivideToImage(byte[,] matrix, int color, int count) {
+		private static void DivideToImage(byte[,] matrix, int color, int count, char letter) {
 			int nWidth = matrix.GetLength(0);
 			int nHeight = matrix.GetLength(1);
 			int left = nWidth, right = 0, up = nHeight, down = 0;
@@ -286,10 +299,12 @@ namespace Program2 {
 			int width = right - left + 1;
 			int height = down - up + 1;
 
-			Bitmap image = new Bitmap(width, height);
+			Bitmap image = new Bitmap(width, height); // 图片
+			byte[,] newMatrix = new byte[width, height];
 			for(int i = 0; i < width; i++) {
 				for(int j = 0; j < height; j++) {
 					image.SetPixel(i, j, Color.White);
+					newMatrix[i, j] = 255;
 				}
 			}
 
@@ -301,8 +316,17 @@ namespace Program2 {
 				}
 			}
 
-			string path = @"E:\Coding\GitHub\Program\Character recognition\Program2\image\" + count + ".jpg";
-			image.Save(path);
+			rotateImage(image); // 将图片旋转为正
+			Image resultImage = image.GetThumbnailImage(16, 16, () => { return false; }, IntPtr.Zero); // 将图像统一调整为16*16
+
+            string path = @"E:\Coding\GitHub\Program\Character recognition\Program2\image\template\" + letter + ".jpg";
+			resultImage.Save(path);
+
+			path = @"E:\Coding\GitHub\Program\Character recognition\Program2\image\template\" + letter + ".txt";
+        }
+
+		private static void rotateImage(Image image) {
+			//...
 		}
 	}
 }
