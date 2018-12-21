@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 using Baidu.Aip.Ocr;
 
 namespace Program1 {
-	class Program {
+	static class Program {
 		static void Main(string[] args) {
 			var client = GetClient();
 
@@ -21,7 +21,6 @@ namespace Program1 {
 
 		// 获取百度AI识别客户端
 		static Ocr GetClient() {
-			var APP_ID = "14991582";
 			var API_KEY = "lgonG76jRV7MsGGrV74VcyIv";
 			var SECRET_KEY = "Qy8P97wnmUGLw2LSuBkRxT0KwuKHOpGi";
 
