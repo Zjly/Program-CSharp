@@ -1,88 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="928794aa-d424-419f-b6f6-98220dad24cc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Program/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Program/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Program/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Program/.idea/contentModel.xml" afterDir="false" />
+    <list default="true" id="928794aa-d424-419f-b6f6-98220dad24cc" name="Default Changelist" comment="Character recognition">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Program/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Program/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Program/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Program/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program1/obj/Debug/Program1.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Program1/obj/Debug/Program1.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program2/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/bin/Debug/Program2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Program2/bin/Debug/Program2.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/bin/Debug/Program2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Program2/bin/Debug/Program2.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/template/0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/template/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/template/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/template/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/template/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/template/8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/template/9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/template/A.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/template/B.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/template/E.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/template/G.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/template/K.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/template/M.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/template/O.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/template/R.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/template/T.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/template/U.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/template/W.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/template/Y.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/template/Z.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/template/c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/template/d.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/template/f.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/template/h.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/template/j.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/template/n.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/template/q.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/template/s.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/template/v.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/template/x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/test image/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/test image/10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/test image/11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/test image/12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/test image/13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/test image/14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/test image/15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/test image/16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/test image/17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/test image/18.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/test image/19.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/test image/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/test image/20.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/test image/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/test image/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/test image/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/test image/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/test image/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/test image/8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/test image/9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/test image1/2GdW.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/test image1/3Tvn.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/test image1/8YqU.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/test image1/96BK.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/test image1/Edds.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/test image1/Kv6x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/test image1/MA0N.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/test image1/Mhsf.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/test image1/N5RY.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/test image1/SAmk.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/test image1/X2Fz.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/test image1/XtAQ.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/test image1/ZQw2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/test image1/fv63.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/test image1/gNT0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/test image1/jcnO.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/test image1/n5eZ.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/test image1/r2bw.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/test image1/vAaF.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/test image1/yBWN.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/obj/Debug/Program2.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Program2/obj/Debug/Program2.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/obj/Debug/Program2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Program2/obj/Debug/Program2.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/obj/Debug/Program2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Program2/obj/Debug/Program2.pdb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -95,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Program2/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="321" column="52" selection-start-line="321" selection-start-column="52" selection-end-line="321" selection-end-column="52" />
+            <state relative-caret-position="266">
+              <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
               <folding>
                 <marker date="1545360283470" expanded="true" signature="6:105" ph="..." />
                 <marker date="1545360283470" expanded="true" signature="126:9002" ph="{...}" />
@@ -264,6 +185,7 @@
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
   </component>
   <component name="RunDashboard">
@@ -346,7 +268,7 @@
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\94247\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -357,12 +279,20 @@
       <updated>1544097604259</updated>
       <workItem from="1544097605753" duration="11808000" />
       <workItem from="1544147622255" duration="3643000" />
-      <workItem from="1545359661127" duration="658000" />
+      <workItem from="1545359661127" duration="953000" />
     </task>
+    <task id="LOCAL-00001" summary="Character recognition">
+      <created>1545360358944</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1545360358945</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16109000" />
+    <option name="totallyTimeSpent" value="16404000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -375,17 +305,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Capture Tool" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.499002" visible="true" weight="0.25670242" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.499002" visible="true" weight="0.25670242" />
       <window_info id="Structure" order="1" sideWeight="0.500998" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Performance Profiler" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32841823" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32841823" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3994638" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -412,6 +341,10 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Character recognition" />
+    <option name="LAST_COMMIT_MESSAGE" value="Character recognition" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -505,8 +438,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Program2/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="321" column="52" selection-start-line="321" selection-start-column="52" selection-end-line="321" selection-end-column="52" />
+        <state relative-caret-position="266">
+          <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
           <folding>
             <marker date="1545360283470" expanded="true" signature="6:105" ph="..." />
             <marker date="1545360283470" expanded="true" signature="126:9002" ph="{...}" />
