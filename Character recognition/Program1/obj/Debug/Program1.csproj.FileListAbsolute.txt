@@ -20,3 +20,14 @@ E:\Coding\GitHub\Program\Character recognition\Program1\obj\Debug\Program1.cspro
 E:\Coding\GitHub\Program\Character recognition\Program1\obj\Debug\Program1.csproj.CopyComplete
 E:\Coding\GitHub\Program\Character recognition\Program1\obj\Debug\Program1.exe
 E:\Coding\GitHub\Program\Character recognition\Program1\obj\Debug\Program1.pdb
+E:\Coding\C#\C# programming\Program\Character recognition\Program1\bin\Debug\Program1.exe.config
+E:\Coding\C#\C# programming\Program\Character recognition\Program1\bin\Debug\Program1.exe
+E:\Coding\C#\C# programming\Program\Character recognition\Program1\bin\Debug\Program1.pdb
+E:\Coding\C#\C# programming\Program\Character recognition\Program1\bin\Debug\AipSdk.dll
+E:\Coding\C#\C# programming\Program\Character recognition\Program1\bin\Debug\Newtonsoft.Json.dll
+E:\Coding\C#\C# programming\Program\Character recognition\Program1\bin\Debug\Newtonsoft.Json.xml
+E:\Coding\C#\C# programming\Program\Character recognition\Program1\obj\Debug\Program1.csprojAssemblyReference.cache
+E:\Coding\C#\C# programming\Program\Character recognition\Program1\obj\Debug\Program1.csproj.CoreCompileInputs.cache
+E:\Coding\C#\C# programming\Program\Character recognition\Program1\obj\Debug\Program1.csproj.CopyComplete
+E:\Coding\C#\C# programming\Program\Character recognition\Program1\obj\Debug\Program1.exe
+E:\Coding\C#\C# programming\Program\Character recognition\Program1\obj\Debug\Program1.pdb

@@ -1,0 +1,10 @@
+E:\Coding\C#\WinFormWork\Game2048\Game2048\bin\Release\Game2048.exe.config
+E:\Coding\C#\WinFormWork\Game2048\Game2048\bin\Release\Game2048.exe
+E:\Coding\C#\WinFormWork\Game2048\Game2048\bin\Release\Game2048.pdb
+E:\Coding\C#\WinFormWork\Game2048\Game2048\obj\Release\Game2048.csprojAssemblyReference.cache
+E:\Coding\C#\WinFormWork\Game2048\Game2048\obj\Release\Game2048.Form1.resources
+E:\Coding\C#\WinFormWork\Game2048\Game2048\obj\Release\Game2048.Properties.Resources.resources
+E:\Coding\C#\WinFormWork\Game2048\Game2048\obj\Release\Game2048.csproj.GenerateResource.cache
+E:\Coding\C#\WinFormWork\Game2048\Game2048\obj\Release\Game2048.csproj.CoreCompileInputs.cache
+E:\Coding\C#\WinFormWork\Game2048\Game2048\obj\Release\Game2048.exe
+E:\Coding\C#\WinFormWork\Game2048\Game2048\obj\Release\Game2048.pdb
