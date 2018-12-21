@@ -21,12 +21,69 @@
       </e>
       <e p="Program2" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
+        <e p="image" t="Include">
+          <e p="template" t="Include">
+            <e p="0.txt" t="Include" />
+            <e p="2.txt" t="Include" />
+            <e p="3.txt" t="Include" />
+            <e p="5.txt" t="Include" />
+            <e p="6.txt" t="Include" />
+            <e p="8.txt" t="Include" />
+            <e p="9.txt" t="Include" />
+            <e p="A.txt" t="Include" />
+            <e p="B.txt" t="Include" />
+            <e p="C.txt" t="Include" />
+            <e p="D.txt" t="Include" />
+            <e p="E.txt" t="Include" />
+            <e p="F.txt" t="Include" />
+            <e p="G.txt" t="Include" />
+            <e p="H.txt" t="Include" />
+            <e p="J.txt" t="Include" />
+            <e p="K.txt" t="Include" />
+            <e p="M.txt" t="Include" />
+            <e p="N.txt" t="Include" />
+            <e p="O.txt" t="Include" />
+            <e p="Q.txt" t="Include" />
+            <e p="R.txt" t="Include" />
+            <e p="S.txt" t="Include" />
+            <e p="T.txt" t="Include" />
+            <e p="U.txt" t="Include" />
+            <e p="V.txt" t="Include" />
+            <e p="W.txt" t="Include" />
+            <e p="X.txt" t="Include" />
+            <e p="Y.txt" t="Include" />
+            <e p="Z.txt" t="Include" />
+          </e>
+          <e p="test image" t="Include">
+            <e p="2GdW.jpg" t="Include" />
+            <e p="3Tvn.jpg" t="Include" />
+            <e p="8YqU.jpg" t="Include" />
+            <e p="96BK.jpg" t="Include" />
+            <e p="Edds.jpg" t="Include" />
+            <e p="fv63.jpg" t="Include" />
+            <e p="gNT0.jpg" t="Include" />
+            <e p="jcnO.jpg" t="Include" />
+            <e p="Kv6x.jpg" t="Include" />
+            <e p="MA0N.jpg" t="Include" />
+            <e p="Mhsf.jpg" t="Include" />
+            <e p="n5eZ.jpg" t="Include" />
+            <e p="N5RY.jpg" t="Include" />
+            <e p="r2bw.jpg" t="Include" />
+            <e p="SAmk.jpg" t="Include" />
+            <e p="vAaF.jpg" t="Include" />
+            <e p="X2Fz.jpg" t="Include" />
+            <e p="XtAQ.jpg" t="Include" />
+            <e p="yBWN.jpg" t="Include" />
+            <e p="ZQw2.jpg" t="Include" />
+          </e>
+        </e>
         <e p="obj" t="ExcludeRecursive" />
         <e p="Program.cs" t="Include" />
         <e p="Program2.csproj" t="IncludeRecursive" />
         <e p="Properties" t="Include">
           <e p="AssemblyInfo.cs" t="Include" />
         </e>
+        <e p="Template.cs" t="Include" />
       </e>
     </e>
   </component>

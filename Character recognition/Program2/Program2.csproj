@@ -41,6 +41,59 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Template.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="image\template\0.txt" />
+    <Content Include="image\template\2.txt" />
+    <Content Include="image\template\3.txt" />
+    <Content Include="image\template\5.txt" />
+    <Content Include="image\template\6.txt" />
+    <Content Include="image\template\8.txt" />
+    <Content Include="image\template\9.txt" />
+    <Content Include="image\template\A.txt" />
+    <Content Include="image\template\B.txt" />
+    <Content Include="image\template\C.txt" />
+    <Content Include="image\template\D.txt" />
+    <Content Include="image\template\E.txt" />
+    <Content Include="image\template\F.txt" />
+    <Content Include="image\template\G.txt" />
+    <Content Include="image\template\H.txt" />
+    <Content Include="image\template\J.txt" />
+    <Content Include="image\template\K.txt" />
+    <Content Include="image\template\M.txt" />
+    <Content Include="image\template\N.txt" />
+    <Content Include="image\template\O.txt" />
+    <Content Include="image\template\Q.txt" />
+    <Content Include="image\template\R.txt" />
+    <Content Include="image\template\S.txt" />
+    <Content Include="image\template\T.txt" />
+    <Content Include="image\template\U.txt" />
+    <Content Include="image\template\V.txt" />
+    <Content Include="image\template\W.txt" />
+    <Content Include="image\template\X.txt" />
+    <Content Include="image\template\Y.txt" />
+    <Content Include="image\template\Z.txt" />
+    <Content Include="image\test image\2GdW.jpg" />
+    <Content Include="image\test image\3Tvn.jpg" />
+    <Content Include="image\test image\8YqU.jpg" />
+    <Content Include="image\test image\96BK.jpg" />
+    <Content Include="image\test image\Edds.jpg" />
+    <Content Include="image\test image\fv63.jpg" />
+    <Content Include="image\test image\gNT0.jpg" />
+    <Content Include="image\test image\jcnO.jpg" />
+    <Content Include="image\test image\Kv6x.jpg" />
+    <Content Include="image\test image\MA0N.jpg" />
+    <Content Include="image\test image\Mhsf.jpg" />
+    <Content Include="image\test image\n5eZ.jpg" />
+    <Content Include="image\test image\N5RY.jpg" />
+    <Content Include="image\test image\r2bw.jpg" />
+    <Content Include="image\test image\SAmk.jpg" />
+    <Content Include="image\test image\vAaF.jpg" />
+    <Content Include="image\test image\X2Fz.jpg" />
+    <Content Include="image\test image\XtAQ.jpg" />
+    <Content Include="image\test image\yBWN.jpg" />
+    <Content Include="image\test image\ZQw2.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

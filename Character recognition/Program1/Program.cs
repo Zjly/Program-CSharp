@@ -73,6 +73,7 @@ namespace Program1 {
 				foreach(string s in strings) {
 					writer.WriteLine(s);
 				}
+
 				writer.Close();
 			} catch(Exception e) {
 				Console.WriteLine(e);
