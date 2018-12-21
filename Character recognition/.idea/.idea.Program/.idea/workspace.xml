@@ -1,50 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="928794aa-d424-419f-b6f6-98220dad24cc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Program/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Program/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program1/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program1/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program1/bin/Debug/Program1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Program1/bin/Debug/Program1.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program1/bin/Debug/Program1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Program1/bin/Debug/Program1.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program1/obj/Debug/Program1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Program1/obj/Debug/Program1.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program1/obj/Debug/Program1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Program1/obj/Debug/Program1.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/Template.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program2/Template.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/bin/Debug/Program2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Program2/bin/Debug/Program2.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/bin/Debug/Program2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Program2/bin/Debug/Program2.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/template/0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Program2/image/template/0.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/template/2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Program2/image/template/2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/template/3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Program2/image/template/3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/template/5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Program2/image/template/5.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/template/6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Program2/image/template/6.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/template/8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Program2/image/template/8.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/template/9.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Program2/image/template/9.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/template/A.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Program2/image/template/A.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/template/B.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Program2/image/template/B.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/template/E.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Program2/image/template/E.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/template/G.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Program2/image/template/G.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/template/K.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Program2/image/template/K.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/template/M.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Program2/image/template/M.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/template/O.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Program2/image/template/O.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/template/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Program2/image/template/R.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/template/T.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Program2/image/template/T.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/template/U.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Program2/image/template/U.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/template/W.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Program2/image/template/W.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/template/Y.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Program2/image/template/Y.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/template/Z.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Program2/image/template/Z.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/template/c.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Program2/image/template/c.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/template/d.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Program2/image/template/d.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/template/f.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Program2/image/template/f.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/template/h.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Program2/image/template/h.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/template/j.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Program2/image/template/j.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/template/n.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Program2/image/template/n.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/template/q.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Program2/image/template/q.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/template/s.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Program2/image/template/s.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/template/v.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Program2/image/template/v.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/image/template/x.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Program2/image/template/x.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/obj/Debug/Program2.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Program2/obj/Debug/Program2.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/obj/Debug/Program2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Program2/obj/Debug/Program2.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program2/obj/Debug/Program2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Program2/obj/Debug/Program2.pdb" afterDir="false" />
-    </list>
+    <list default="true" id="928794aa-d424-419f-b6f6-98220dad24cc" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,8 +13,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Program1/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="12" column="64" lean-forward="true" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
+            <state relative-caret-position="171">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <marker date="1545364266652" expanded="false" signature="6:191" ph="..." />
                 <marker date="1545364266652" expanded="true" signature="212:2193" ph="{...}" />
@@ -83,6 +40,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/Source/02053.00/Source/ndp/clr/src/BCL/system/io/__error.cs" root0="SKIP_HIGHLIGHTING" />
@@ -236,7 +196,7 @@
       <workItem from="1544147622255" duration="3643000" />
       <workItem from="1545359661127" duration="1244000" />
       <workItem from="1545362034709" duration="552000" />
-      <workItem from="1545362620167" duration="1674000" />
+      <workItem from="1545362620167" duration="1753000" />
     </task>
     <task id="LOCAL-00001" summary="Character recognition">
       <created>1545360358944</created>
@@ -266,11 +226,18 @@
       <option name="project" value="LOCAL" />
       <updated>1545363941996</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Character recognition">
+      <created>1545364352822</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1545364352822</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18921000" />
+    <option name="totallyTimeSpent" value="19000000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -498,8 +465,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Program1/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="12" column="64" lean-forward="true" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
+        <state relative-caret-position="171">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           <folding>
             <marker date="1545364266652" expanded="false" signature="6:191" ph="..." />
             <marker date="1545364266652" expanded="true" signature="212:2193" ph="{...}" />
