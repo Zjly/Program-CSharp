@@ -338,7 +338,7 @@ namespace Program2 {
 
 			string result = "";
 			for(int i = 0; i < resultInt.Length; i++) {
-				result += resultInt[i] + " ";
+				result += resultInt[i] + "	";
 			}
 
 			return result;

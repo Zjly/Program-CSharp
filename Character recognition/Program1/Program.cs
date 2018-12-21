@@ -10,17 +10,21 @@ using Baidu.Aip.Ocr;
 namespace Program1 {
 	static class Program {
 		static void Main(string[] args) {
+			Recognition(@"../../test.jpg", @"../../result.txt");
+		}
+
+		internal static void Recognition(string path1, string path2) {
 			var client = GetClient();
 
-			string result = GetResult(client, @"../../test.jpg");
+			string result = GetResult(client, path1);
 
 			string[] strings = ExtractWord(result);
 
-			SaveToFile(@"../../result.txt", strings);
+			SaveToFile(path2, strings);
 		}
 
 		// 获取百度AI识别客户端
-		static Ocr GetClient() {
+		private static Ocr GetClient() {
 			var API_KEY = "lgonG76jRV7MsGGrV74VcyIv";
 			var SECRET_KEY = "Qy8P97wnmUGLw2LSuBkRxT0KwuKHOpGi";
 
@@ -31,7 +35,7 @@ namespace Program1 {
 		}
 
 		// 获取识别结果
-		static string GetResult(Ocr client, string path) {
+		private static string GetResult(Ocr client, string path) {
 			var image = File.ReadAllBytes(path); // 将图片转化为数组
 			try {
 				var result = client.GeneralBasic(image); // 获取结果
@@ -44,7 +48,7 @@ namespace Program1 {
 		}
 
 		// 识别结果提取
-		static string[] ExtractWord(string s) {
+		private static string[] ExtractWord(string s) {
 			// 获取图中文字数目
 			string countS = "\"words_result_num\": (.*?),";
 			MatchCollection numMatches = new Regex(countS).Matches(s);
@@ -67,7 +71,7 @@ namespace Program1 {
 		}
 
 		// 保存结果到文件
-		static void SaveToFile(string path, string[] strings) {
+		private static void SaveToFile(string path, string[] strings) {
 			try {
 				StreamWriter writer = new StreamWriter(path);
 				foreach(string s in strings) {
