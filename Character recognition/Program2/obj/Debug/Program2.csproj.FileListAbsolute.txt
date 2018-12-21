@@ -10,3 +10,9 @@ E:\Coding\GitHub\Program\Character recognition\Program2\obj\Debug\Program2.cspro
 E:\Coding\GitHub\Program\Character recognition\Program2\obj\Debug\Program2.csproj.CoreCompileInputs.cache
 E:\Coding\GitHub\Program\Character recognition\Program2\obj\Debug\Program2.exe
 E:\Coding\GitHub\Program\Character recognition\Program2\obj\Debug\Program2.pdb
+E:\Coding\C#\C# programming\Program\Character recognition\Program2\bin\Debug\Program2.exe
+E:\Coding\C#\C# programming\Program\Character recognition\Program2\bin\Debug\Program2.pdb
+E:\Coding\C#\C# programming\Program\Character recognition\Program2\obj\Debug\Program2.csprojAssemblyReference.cache
+E:\Coding\C#\C# programming\Program\Character recognition\Program2\obj\Debug\Program2.csproj.CoreCompileInputs.cache
+E:\Coding\C#\C# programming\Program\Character recognition\Program2\obj\Debug\Program2.exe
+E:\Coding\C#\C# programming\Program\Character recognition\Program2\obj\Debug\Program2.pdb

@@ -2,29 +2,20 @@
 using System.Collections.Generic;
 using System.Drawing;
 using System.IO;
+using System.Text;
 
 namespace Program2 {
 	internal class Program {
-		private static byte[,] matrix;
-
         public static void Main(params string[] args) {
 			GetTemplate();
 		}
 
-//		private static void GetTemplate() {
-//			for(int i = 1; i <= 20; i++) {
-//				string s = @"E:\Coding\GitHub\Program\Character recognition\Program2\image\test image\";
-//				s += i;
-//				s += ".jpg";
-//				Recognition(s, i);
-//			}
-//		}
-
 		private static void GetTemplate() {
-			string path = @"E:\Coding\GitHub\Program\Character recognition\Program2\image\test image1";
-			var files = Directory.GetFiles(path, "*.jpg");
+			string path = @"../../image/test image/";
+			var files = Directory.GetFiles(path, "*.jpg"); // 找到其中的图片文件
 			foreach(var file in files) {
-				string code = file.Replace(@"E:\Coding\GitHub\Program\Character recognition\Program2\image\test image1\", "");
+				// 将code更改为文件名(去掉前后的路径信息)
+				string code = file.Replace(@"../../image/test image/", "");
 				code = code.Replace(".jpg", "");
 				Recognition(file, code);
             }
@@ -32,7 +23,7 @@ namespace Program2 {
 
         private static void Recognition(string path, string code) {
 			Bitmap image = new Bitmap(path); // 获取图片
-			matrix = new byte[image.Width, image.Height]; // 保存图片的矩阵
+	        byte[,] matrix = new byte[image.Width, image.Height]; // 保存图片的矩阵
 			int[] result = new int[4]; // 四个字母所填充的数字
 			ToGray(image); // 图片灰度化
 			Binaryzation(image); // 图片二值化
@@ -312,21 +303,49 @@ namespace Program2 {
 				for(int j = 0; j < height; j++) {
 					if(matrix[i + left, j + up] == color) {
 						image.SetPixel(i, j, Color.Black);
+						newMatrix[i, j] = 0;
 					}
 				}
 			}
 
-			rotateImage(image); // 将图片旋转为正
+			RotateImage(image); // 将图片旋转为正
 			Image resultImage = image.GetThumbnailImage(16, 16, () => { return false; }, IntPtr.Zero); // 将图像统一调整为16*16
 
-            string path = @"E:\Coding\GitHub\Program\Character recognition\Program2\image\template\" + letter + ".jpg";
-			resultImage.Save(path);
+//            string path = @"../../image\template\" + letter + ".jpg";
+//			resultImage.Save(path);
 
-			path = @"E:\Coding\GitHub\Program\Character recognition\Program2\image\template\" + letter + ".txt";
-        }
+			string path = @"../../image/template/" + letter + ".txt";
+			string s = MatrixToString(matrix); // 该字母的特征字符串
+			File.WriteAllText(path, s, Encoding.UTF8);
+		}
 
-		private static void rotateImage(Image image) {
+		private static void RotateImage(Image image) {
 			//...
 		}
+
+        // 可以将字符图片等分为16个子区域，每个区域是4*4的
+        // 统计每个区域内部黑色像素（字符像素）的个数，这样得到16个数值
+        private static string MatrixToString(byte[,] matrix) {
+			int nWidth = matrix.GetLength(0);
+			int nHeight = matrix.GetLength(1);
+	        
+	        int[] resultInt = new int[16];
+
+			for (int width = 0; width < nWidth; width++) {
+				for (int height = 0; height < nHeight; height++) {
+					int index = width / 4 + height / 4 * 4;
+					if(matrix[width, height] == 0) {
+						resultInt[index]++;
+					}
+				}
+			}
+
+	        string result = "";
+	        for(int i = 0; i < resultInt.Length; i++) {
+		        result += resultInt[i] + " ";
+	        }
+
+	        return result;       
+        }
 	}
 }
