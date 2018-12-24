@@ -10,7 +10,7 @@ using Baidu.Aip.Ocr;
 namespace Program1 {
 	static class Program {
 		static void Main(string[] args) {
-			Recognition(@"../../test.jpg", @"../../result.txt"); // 进行识别
+			Recognition(@"../../test.jpg", @"../../result.txt");
 		}
 
 		internal static void Recognition(string path1, string path2) {
