@@ -1,0 +1,6 @@
+E:\Coding\C#\Program\Fight The Landlord\FightTheLandlord\bin\Debug\FightTheLandlord.exe
+E:\Coding\C#\Program\Fight The Landlord\FightTheLandlord\bin\Debug\FightTheLandlord.pdb
+E:\Coding\C#\Program\Fight The Landlord\FightTheLandlord\obj\Debug\FightTheLandlord.csprojAssemblyReference.cache
+E:\Coding\C#\Program\Fight The Landlord\FightTheLandlord\obj\Debug\FightTheLandlord.csproj.CoreCompileInputs.cache
+E:\Coding\C#\Program\Fight The Landlord\FightTheLandlord\obj\Debug\FightTheLandlord.exe
+E:\Coding\C#\Program\Fight The Landlord\FightTheLandlord\obj\Debug\FightTheLandlord.pdb
