@@ -1,6 +1,6 @@
 namespace FightTheLandlord {
 	/// <summary>
-	/// 牌分类处理类
+	/// 牌分类处理
 	/// </summary>
 	public static class CardClassifyService {
 		/// <summary>
