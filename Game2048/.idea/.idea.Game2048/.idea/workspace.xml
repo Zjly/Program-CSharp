@@ -85,12 +85,20 @@
       <option name="presentableId" value="Default" />
       <updated>1547394593172</updated>
       <workItem from="1547394594468" duration="45000" />
-      <workItem from="1547394969412" duration="149000" />
+      <workItem from="1547394969412" duration="267000" />
     </task>
+    <task id="LOCAL-00001" summary="Game2048">
+      <created>1547395212449</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1547395212449</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="194000" />
+    <option name="totallyTimeSpent" value="312000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -103,7 +111,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4969574" visible="true" weight="0.27010724" />
       <window_info id="Structure" order="1" sideWeight="0.5030426" side_tool="true" weight="0.26340482" />
@@ -140,6 +147,10 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Game2048" />
+    <option name="LAST_COMMIT_MESSAGE" value="Game2048" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
