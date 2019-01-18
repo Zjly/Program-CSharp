@@ -50,7 +50,7 @@ namespace FightTheLandlord {
 			}
 
 			// 王炸
-			if(cards[0] == 'B' && cards[1] == 'S') {
+			if(cards[0] == 'S' && cards[1] == 'B') {
 				return "rocket";
 			}
 
@@ -105,7 +105,7 @@ namespace FightTheLandlord {
 			   cards[0] == cards[1] && cards[2] == cards[3] && cards[3] == cards[4]) {
 				return "triple with double";
 			}
-			
+
 			// 四带二判断(3333xx x3333x xx3333)
 			if(cards.Length == 6 &&
 			   cards[0] == cards[1] && cards[1] == cards[2] && cards[2] == cards[3] ||
@@ -114,7 +114,11 @@ namespace FightTheLandlord {
 				return "fourfold with double";
 			}
 
-			return "invalid";
+			// 飞机判断(33344456)
+			
+
+			// 顺子判断
+			return StraightProcessing(cards);
 		}
 
 		/// <summary>
@@ -123,8 +127,26 @@ namespace FightTheLandlord {
 		/// <param name="cards">所出的牌</param>
 		/// <returns>是否为顺子 若是顺子则给出类型</returns>
 		private static string StraightProcessing(string cards) {
-			string singleStraightMode = "";
-			return "";
+			string singleStraightMode = "34567890JQKA";
+			string doubleStraightMode = "3344556677889900JJQQKKAA";
+			string tripleStraightMode = "333444555666777888999000JJJQQQKKKAAA";
+
+			// 单顺子
+			if(singleStraightMode.Contains(cards)) {
+				return "single straight";
+			}
+
+			// 双顺子
+			if(doubleStraightMode.Contains(cards)) {
+				return "double straight";
+			}
+
+			// 三顺子
+			if(tripleStraightMode.Contains(cards)) {
+				return "triple straight";
+			}
+
+			return "invalid";
 		}
 
 		/// <summary>
@@ -159,7 +181,7 @@ namespace FightTheLandlord {
 
 			return true;
 		}
-		
+
 		/// <summary>
 		/// 对卡牌顺序进行排序 以便后续操作
 		/// </summary>
@@ -171,7 +193,7 @@ namespace FightTheLandlord {
 			for(int i = 0; i < cards.Length; i++) {
 				array[GetCardInt(cards[i])]++;
 			}
-			
+
 			// 将数组中的按照数字存成字符串并返回
 			return GetSortedCards(array);
 		}
@@ -225,49 +247,49 @@ namespace FightTheLandlord {
 		/// <returns>按照扑克大小存储的字符串</returns>
 		private static string GetSortedCards(int[] array) {
 			StringBuilder cards = new StringBuilder("");
-			
+
 			// 向字符串中添加3-9
 			for(int i = 3; i < 10; i++) {
 				for(int j = 0; j < array[i]; j++) {
 					cards.Append(i);
 				}
 			}
-			
+
 			// 添加10
 			for(int i = 0; i < array[10]; i++) {
 				cards.Append(0);
 			}
-			
+
 			// 添加J
 			for(int i = 0; i < array[11]; i++) {
 				cards.Append('J');
 			}
-			
+
 			// 添加Q
 			for(int i = 0; i < array[12]; i++) {
 				cards.Append('Q');
 			}
-			
+
 			// 添加K
 			for(int i = 0; i < array[13]; i++) {
 				cards.Append('K');
 			}
-			
+
 			// 添加A
 			for(int i = 0; i < array[1]; i++) {
 				cards.Append('A');
 			}
-			
+
 			// 添加2
 			for(int i = 0; i < array[2]; i++) {
 				cards.Append('2');
 			}
-			
+
 			// 添加S
 			for(int i = 0; i < array[14]; i++) {
 				cards.Append('S');
 			}
-			
+
 			// 添加B
 			for(int i = 0; i < array[15]; i++) {
 				cards.Append('B');

@@ -8,12 +8,12 @@ namespace FightTheLandlord {
 		/// <summary>
 		/// 具体所出牌
 		/// </summary>
-		internal string cards;
+		internal readonly string cards;
 		
 		/// <summary>
 		/// 牌属类型 不合法则为空
 		/// </summary>
-		internal string type;
+		internal readonly string type;
 
 		/// <summary>
 		/// 构造函数 对卡牌进行赋值并分类
@@ -25,11 +25,7 @@ namespace FightTheLandlord {
 			this.cards = Sort(cards);
 			
 			// 对合法性进行判断后进行赋值分类
-			if(IsValid(cards)) {
-				type = ClassifyCards(this.cards);
-			} else {
-				type = "invalid";
-			}
+			type = IsValid(cards) ? ClassifyCards(this.cards) : "invalid";
 		}
 	}
 }
