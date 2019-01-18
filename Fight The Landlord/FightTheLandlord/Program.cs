@@ -3,7 +3,7 @@
 		public static void Main(string[] args) {
 			MainGame game = new MainGame();
 			
-			Cards cards = new Cards("343434");
+			Cards cards = new Cards("3QKSB43A78302JQ44634");
 		}
 	}
 }

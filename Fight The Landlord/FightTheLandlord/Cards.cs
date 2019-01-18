@@ -11,7 +11,7 @@ namespace FightTheLandlord {
 		internal string cards;
 		
 		/// <summary>
-		/// 牌属类型
+		/// 牌属类型 不合法则为空
 		/// </summary>
 		internal string type;
 
@@ -22,11 +22,13 @@ namespace FightTheLandlord {
 		internal Cards(string cards) {
 			// 全部转大写
 			cards = cards.ToUpper();
+			this.cards = Sort(cards);
 			
 			// 对合法性进行判断后进行赋值分类
 			if(IsValid(cards)) {
-				this.cards = Sort(cards);
 				type = ClassifyCards(this.cards);
+			} else {
+				type = "invalid";
 			}
 		}
 	}

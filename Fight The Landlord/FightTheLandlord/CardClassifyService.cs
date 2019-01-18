@@ -1,3 +1,5 @@
+using System.Text;
+
 namespace FightTheLandlord {
 	/// <summary>
 	/// 牌分类处理
@@ -23,12 +25,12 @@ namespace FightTheLandlord {
 				case 4:
 					return FourCardsProcessing(cards);
 				default:
-					return "";
+					return FiveOrMoreCardsProcessing(cards);
 			}
 		}
 
 		/// <summary>
-		/// 出牌数为单张卡处理
+		/// 出牌数为单张卡处理 可能为单牌(例: 3)
 		/// </summary>
 		/// <param name="cards">所出的牌</param>
 		/// <returns>出牌类型</returns>
@@ -37,29 +39,91 @@ namespace FightTheLandlord {
 		}
 
 		/// <summary>
-		/// 出牌数为两张卡处理
+		/// 出牌数为两张卡处理 可能为对子(例: 33)或者王炸(例: BS)
 		/// </summary>
 		/// <param name="cards">所出的牌</param>
 		/// <returns>出牌类型</returns>
 		private static string TwoCardsProcessing(string cards) {
-			return "";
+			// 对子
+			if(cards[0] == cards[1]) {
+				return "pair";
+			}
+
+			// 王炸
+			if(cards[0] == 'B' && cards[1] == 'S') {
+				return "rocket";
+			}
+
+			// 其余情况则不合法
+			return "invalid";
 		}
 
 		/// <summary>
-		/// 出牌数为三张卡处理
+		/// 出牌数为三张卡处理 可能为三牌(例: 333)
 		/// </summary>
 		/// <param name="cards">所出的牌</param>
 		/// <returns>出牌类型</returns>
 		private static string ThreeCardsProcessing(string cards) {
-			return "";
+			// 判断是否为三牌
+			if(cards[0] == cards[1] && cards[1] == cards[2]) {
+				return "triple";
+			}
+
+			// 否则为不合法
+			return "invalid";
 		}
 
 		/// <summary>
-		/// 出牌数为四张卡处理
+		/// 出牌数为四张卡处理 可能为炸弹(例: 3333)或者三带一(例: 3334)
 		/// </summary>
 		/// <param name="cards">所出的牌</param>
 		/// <returns>出牌类型</returns>
 		private static string FourCardsProcessing(string cards) {
+			// 首先判断是否为炸弹
+			if(cards[0] == cards[1] && cards[1] == cards[2] && cards[2] == cards[3]) {
+				return "bomb";
+			}
+
+			// 其次判断是否为三带一(两种情况 3334 3444)
+			if(cards[0] == cards[1] && cards[1] == cards[2] || cards[1] == cards[2] && cards[2] == cards[3]) {
+				return "triple with single";
+			}
+
+			// 其余情况则不合法
+			return "invalid";
+		}
+
+		/// <summary>
+		/// 五张及以上卡判断类型
+		/// </summary>
+		/// <param name="cards">所出的牌</param>
+		/// <returns>出牌类型</returns>
+		private static string FiveOrMoreCardsProcessing(string cards) {
+			// 三带二判断(33344 33444)
+			if(cards.Length == 5 &&
+			   cards[0] == cards[1] && cards[1] == cards[2] && cards[3] == cards[4] ||
+			   cards[0] == cards[1] && cards[2] == cards[3] && cards[3] == cards[4]) {
+				return "triple with double";
+			}
+			
+			// 四带二判断(3333xx x3333x xx3333)
+			if(cards.Length == 6 &&
+			   cards[0] == cards[1] && cards[1] == cards[2] && cards[2] == cards[3] ||
+			   cards[1] == cards[2] && cards[2] == cards[3] && cards[3] == cards[4] ||
+			   cards[2] == cards[3] && cards[3] == cards[4] && cards[4] == cards[5]) {
+				return "fourfold with double";
+			}
+
+			return "invalid";
+		}
+
+		/// <summary>
+		/// 顺子判断
+		/// </summary>
+		/// <param name="cards">所出的牌</param>
+		/// <returns>是否为顺子 若是顺子则给出类型</returns>
+		private static string StraightProcessing(string cards) {
+			string singleStraightMode = "";
 			return "";
 		}
 
@@ -92,27 +156,124 @@ namespace FightTheLandlord {
 						return false;
 				}
 			}
+
 			return true;
 		}
-
+		
 		/// <summary>
 		/// 对卡牌顺序进行排序 以便后续操作
 		/// </summary>
 		/// <param name="cards">所出的牌</param>
 		/// <returns>排序完毕的卡牌</returns>
 		internal static string Sort(string cards) {
-			// 对卡牌进行按ascii码排序
-			for(int i = 0; i < cards.Length - 1; i++) {
-				for(int j = i + 1; j < cards.Length; j++) {
-					if(cards[i] > cards[j]) {
-						char p = cards[i];
-						cards = cards.Remove(i, 1).Insert(i, cards[j].ToString());
-						cards = cards.Remove(j, 1).Insert(j, p.ToString());
-					}
-				}
+			// 将出牌中的每个字母导入到数组中
+			int[] array = new int[16];
+			for(int i = 0; i < cards.Length; i++) {
+				array[GetCardInt(cards[i])]++;
+			}
+			
+			// 将数组中的按照数字存成字符串并返回
+			return GetSortedCards(array);
+		}
+
+		/// <summary>
+		/// 根据字符得到对应卡牌的数组序号
+		/// </summary>
+		/// <param name="card">单张卡牌</param>
+		/// <returns>对应的数组序号</returns>
+		private static int GetCardInt(char card) {
+			switch(card) {
+				case '3':
+					return 3;
+				case '4':
+					return 4;
+				case '5':
+					return 5;
+				case '6':
+					return 6;
+				case '7':
+					return 7;
+				case '8':
+					return 8;
+				case '9':
+					return 9;
+				case '0':
+					return 10;
+				case 'J':
+					return 11;
+				case 'Q':
+					return 12;
+				case 'K':
+					return 13;
+				case 'A':
+					return 1;
+				case '2':
+					return 2;
+				case 'S':
+					return 14;
+				case 'B':
+					return 15;
 			}
 
-			return cards;
+			return -1;
+		}
+
+		/// <summary>
+		/// 通过数组排列字符串
+		/// </summary>
+		/// <param name="array">牌所储存的数组</param>
+		/// <returns>按照扑克大小存储的字符串</returns>
+		private static string GetSortedCards(int[] array) {
+			StringBuilder cards = new StringBuilder("");
+			
+			// 向字符串中添加3-9
+			for(int i = 3; i < 10; i++) {
+				for(int j = 0; j < array[i]; j++) {
+					cards.Append(i);
+				}
+			}
+			
+			// 添加10
+			for(int i = 0; i < array[10]; i++) {
+				cards.Append(0);
+			}
+			
+			// 添加J
+			for(int i = 0; i < array[11]; i++) {
+				cards.Append('J');
+			}
+			
+			// 添加Q
+			for(int i = 0; i < array[12]; i++) {
+				cards.Append('Q');
+			}
+			
+			// 添加K
+			for(int i = 0; i < array[13]; i++) {
+				cards.Append('K');
+			}
+			
+			// 添加A
+			for(int i = 0; i < array[1]; i++) {
+				cards.Append('A');
+			}
+			
+			// 添加2
+			for(int i = 0; i < array[2]; i++) {
+				cards.Append('2');
+			}
+			
+			// 添加S
+			for(int i = 0; i < array[14]; i++) {
+				cards.Append('S');
+			}
+			
+			// 添加B
+			for(int i = 0; i < array[15]; i++) {
+				cards.Append('B');
+			}
+
+			return cards.ToString();
 		}
 	}
 }
