@@ -13,7 +13,7 @@ namespace Program1 {
 			Recognition(@"../../test.jpg", @"../../result.txt");
 		}
 
-		internal static void Recognition(string path1, string path2) {
+		private static void Recognition(string path1, string path2) {
 			var client = GetClient();
 
 			string result = GetResult(client, path1);
