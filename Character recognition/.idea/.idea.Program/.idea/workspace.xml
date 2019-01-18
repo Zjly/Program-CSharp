@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="928794aa-d424-419f-b6f6-98220dad24cc" name="Default Changelist" comment="" />
+    <list default="true" id="928794aa-d424-419f-b6f6-98220dad24cc" name="Default Changelist" comment="Program">
+      <change beforePath="$PROJECT_DIR$/../Game2048/.idea/.idea.Game2048/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Game2048/.idea/.idea.Game2048/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +42,7 @@
         <entry file="file://$PROJECT_DIR$/Program2/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="152">
-              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
               <folding>
                 <marker date="1545363906655" expanded="true" signature="52:185" ph="{...}" />
                 <marker date="1545363906655" expanded="true" signature="78:183" ph="{...}" />
@@ -178,10 +180,10 @@
     </navigator>
     <panes>
       <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
-      <pane id="AssemblyExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -290,6 +292,7 @@
       <workItem from="1545671169246" duration="109000" />
       <workItem from="1545753102813" duration="235000" />
       <workItem from="1547394469163" duration="255000" />
+      <workItem from="1547394978632" duration="113000" />
     </task>
     <task id="LOCAL-00001" summary="Character recognition">
       <created>1545360358944</created>
@@ -354,11 +357,18 @@
       <option name="project" value="LOCAL" />
       <updated>1547394675903</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Character recognition">
+      <created>1547395049515</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1547395049515</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21891000" />
+    <option name="totallyTimeSpent" value="22004000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -373,7 +383,7 @@
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4969574" visible="true" weight="0.28150135" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4969574" visible="true" weight="0.2855228" />
       <window_info id="Structure" order="1" sideWeight="0.5030426" side_tool="true" weight="0.26340482" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -409,9 +419,9 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Character recognition" />
     <MESSAGE value="Program" />
-    <option name="LAST_COMMIT_MESSAGE" value="Program" />
+    <MESSAGE value="Character recognition" />
+    <option name="LAST_COMMIT_MESSAGE" value="Character recognition" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -600,7 +610,7 @@
     <entry file="file://$PROJECT_DIR$/Program2/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
           <folding>
             <marker date="1545363906655" expanded="true" signature="52:185" ph="{...}" />
             <marker date="1545363906655" expanded="true" signature="78:183" ph="{...}" />
