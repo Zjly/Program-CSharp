@@ -1,4 +1,5 @@
 using static FightTheLandlord.CardClassifyService;
+using static FightTheLandlord.CardService;
 
 namespace FightTheLandlord {
 	/// <summary>

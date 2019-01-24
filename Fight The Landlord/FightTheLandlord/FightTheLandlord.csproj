@@ -39,10 +39,11 @@
     </ItemGroup>
     <ItemGroup>
         <Compile Include="CardClassifyService.cs" />
+        <Compile Include="CardGetService.cs" />
         <Compile Include="Cards.cs" />
         <Compile Include="CardCompareService.cs" />
+        <Compile Include="CardService.cs" />
         <Compile Include="MainGame.cs" />
-        <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
