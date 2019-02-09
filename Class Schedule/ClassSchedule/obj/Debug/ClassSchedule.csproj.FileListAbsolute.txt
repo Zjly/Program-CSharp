@@ -1,0 +1,6 @@
+E:\Coding\C#\Program\Class Schedule\ClassSchedule\obj\Debug\ClassSchedule.csprojAssemblyReference.cache
+E:\Coding\C#\Program\Class Schedule\ClassSchedule\obj\Debug\ClassSchedule.csproj.CoreCompileInputs.cache
+E:\Coding\C#\Program\Class Schedule\ClassSchedule\bin\Debug\ClassSchedule.exe
+E:\Coding\C#\Program\Class Schedule\ClassSchedule\bin\Debug\ClassSchedule.pdb
+E:\Coding\C#\Program\Class Schedule\ClassSchedule\obj\Debug\ClassSchedule.exe
+E:\Coding\C#\Program\Class Schedule\ClassSchedule\obj\Debug\ClassSchedule.pdb
