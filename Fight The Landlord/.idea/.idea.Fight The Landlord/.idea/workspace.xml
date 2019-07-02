@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="293f1b6b-934d-4ebc-8655-ae140cbf42c4" name="Default Changelist" comment="Fight The Landlord">
+      <change beforePath="$PROJECT_DIR$/../Character recognition/.idea/.idea.Program/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Character recognition/.idea/.idea.Program/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FightTheLandlord/MainGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FightTheLandlord/MainGame.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Game2048/.idea/.idea.Game2048/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Game2048/.idea/.idea.Game2048/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/FightTheLandlord/MainGame.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="530">
+              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+              <folding>
+                <marker date="1548427046129" expanded="false" signature="6:102" ph="..." />
+                <marker date="1548427046129" expanded="true" signature="131:1359" ph="{...}" />
+                <marker date="1548427046129" expanded="true" signature="134:173" ph="/// 游戏主体 ... " />
+                <marker date="1548427046129" expanded="true" signature="204:1357" ph="{...}" />
+                <marker date="1548427046129" expanded="true" signature="452:495" ph="/// Main函数 ... " />
+                <marker date="1548427046129" expanded="true" signature="524:551" ph="{...}" />
+                <marker date="1548427046129" expanded="true" signature="555:599" ph="/// 游戏开始前准备 ... " />
+                <marker date="1548427046129" expanded="true" signature="630:734" ph="{...}" />
+                <marker date="1548427046129" expanded="true" signature="738:778" ph="/// 抢地主 ... " />
+                <marker date="1548427046129" expanded="true" signature="818:1119" ph="{...}" />
+                <marker date="1548427046129" expanded="true" signature="934:1030" ph="{...}" />
+                <marker date="1548427046129" expanded="true" signature="963:995" ph="{...}" />
+                <marker date="1548427046129" expanded="true" signature="1123:1164" ph="/// 游戏主体 ... " />
+                <marker date="1548427046129" expanded="true" signature="1193:1202" ph="{...}" />
+                <marker date="1548427046129" expanded="true" signature="1206:1249" ph="///  ... " />
+                <marker date="1548427046129" expanded="true" signature="1292:1348" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>&quot;</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>'</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/Source/02053.00/Source/ndp/clr/src/BCL/system/int32.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FightTheLandlord/CardCompareService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/Source/02053.00/Source/ndp/clr/src/BCL/system/random.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FightTheLandlord/MainGame.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FightTheLandlord/CardService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FightTheLandlord/Cards.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FightTheLandlord/CardGetService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FightTheLandlord/CardClassifyService.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Fight The Landlord/CardService.cs" />
+        <option value="$PROJECT_DIR$/FightTheLandlord/Properties/CardTypeService.cs" />
+        <option value="$PROJECT_DIR$/FightTheLandlord/CardTypeService.cs" />
+        <option value="$PROJECT_DIR$/FightTheLandlord/CardCompareService.cs" />
+        <option value="$PROJECT_DIR$/FightTheLandlord/Demo.cs" />
+        <option value="$PROJECT_DIR$/FightTheLandlord/Program.cs" />
+        <option value="$PROJECT_DIR$/FightTheLandlord/CardsService.cs" />
+        <option value="$PROJECT_DIR$/FightTheLandlord/Cards.cs" />
+        <option value="$PROJECT_DIR$/FightTheLandlord/CardClassifyService.cs" />
+        <option value="$PROJECT_DIR$/FightTheLandlord/CardService.cs" />
+        <option value="$PROJECT_DIR$/FightTheLandlord/CardGetService.cs" />
+        <option value="$PROJECT_DIR$/FightTheLandlord/MainGame.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="85" />
+    <option name="y" value="25" />
+    <option name="width" value="1750" />
+    <option name="height" value="1030" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AssemblyExplorer" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Fight The Landlord" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Fight The Landlord" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="FightTheLandlord" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="FileSystemExplorer" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Character recognition/Program.sln" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected=".NET Project.FightTheLandlord">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FightTheLandlord" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/FightTheLandlord/bin/Debug/FightTheLandlord.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FightTheLandlord/bin/Debug" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/FightTheLandlord/FightTheLandlord.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.6.1" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue=".NET Project.FightTheLandlord" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="293f1b6b-934d-4ebc-8655-ae140cbf42c4" name="Default Changelist" comment="" />
+      <created>1547387000503</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1547387000503</updated>
+      <workItem from="1547387003763" duration="253000" />
+      <workItem from="1547387312841" duration="7152000" />
+      <workItem from="1547394721826" duration="464000" />
+      <workItem from="1547485264406" duration="1225000" />
+      <workItem from="1547791640309" duration="11327000" />
+      <workItem from="1547813049114" duration="541000" />
+      <workItem from="1547813829253" duration="2536000" />
+      <workItem from="1547914351142" duration="665000" />
+      <workItem from="1547984154703" duration="6330000" />
+      <workItem from="1548341083280" duration="3125000" />
+      <workItem from="1548425892528" duration="1723000" />
+    </task>
+    <task id="LOCAL-00001" summary="编写卡牌合法性判断以及排序&#10;编写卡牌分类框架">
+      <created>1547394402589</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1547394402589</updated>
+    </task>
+    <task id="LOCAL-00002" summary="FightTheLandlord">
+      <created>1547394849634</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1547394849634</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Fight The Landlord">
+      <created>1547394948333</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1547394948333</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Fight The Landlord">
+      <created>1547395149664</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1547395149664</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Fight The Landlord">
+      <created>1547813469411</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1547813469411</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Fight The Landlord">
+      <created>1547820775135</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1547820775135</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Fight The Landlord">
+      <created>1548346042430</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1548346042430</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="35341000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4969574" visible="true" weight="0.30563003" />
+      <window_info id="Structure" order="1" sideWeight="0.5030426" side_tool="true" weight="0.26340482" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Build" order="2" weight="0.3297587" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.33914208" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.3994638" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.3297587" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32841823" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="NuGet" order="11" weight="0.3297587" />
+      <window_info anchor="bottom" id="Performance Profiler" order="12" weight="0.3297587" />
+      <window_info anchor="bottom" id="Terminal" order="13" weight="0.3297587" />
+      <window_info anchor="bottom" id="Unit Tests" order="14" weight="0.3297587" />
+      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="编写卡牌合法性判断以及排序&#10;编写卡牌分类框架" />
+    <MESSAGE value="FightTheLandlord" />
+    <MESSAGE value="Fight The Landlord" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fight The Landlord" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="DotNetProject">
+        <watch expression="player" language="C#" custom="RiderImportsList:" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>player</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>player</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Fight The Landlord/CardService.cs" />
+    <entry file="file://$PROJECT_DIR$/Fight The Landlord/Program.cs" />
+    <entry file="file://$USER_HOME$/AppData/Local/Symbols/src/Source/02053.00/Source/ndp/clr/src/BCL/system/int32.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FightTheLandlord/Demo.cs" />
+    <entry file="file://$USER_HOME$/AppData/Local/Symbols/src/Source/02053.00/Source/ndp/clr/src/BCL/system/random.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="180" column="25" selection-start-line="180" selection-start-column="25" selection-end-line="180" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FightTheLandlord/Cards.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="28" lean-forward="true" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+          <folding>
+            <marker date="1547990639805" expanded="true" signature="6:93" ph="..." />
+            <marker date="1547990639805" expanded="true" signature="122:649" ph="{...}" />
+            <marker date="1547990639805" expanded="true" signature="125:163" ph="/// 卡牌类 ... " />
+            <marker date="1547990639805" expanded="true" signature="184:647" ph="{...}" />
+            <marker date="1547990639805" expanded="true" signature="188:230" ph="/// 具体所出牌 ... " />
+            <marker date="1547990639805" expanded="true" signature="270:318" ph="/// 牌属类型 不合法则为空 ... " />
+            <marker date="1547990639805" expanded="true" signature="355:446" ph="/// 构造函数 对卡牌进行赋值并分类 ... " />
+            <marker date="1547990639805" expanded="true" signature="478:644" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FightTheLandlord/Program.cs" />
+    <entry file="file://$PROJECT_DIR$/FightTheLandlord/CardClassifyService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2166">
+          <caret line="114" column="42" selection-start-line="114" selection-start-column="42" selection-end-line="114" selection-end-column="42" />
+          <folding>
+            <marker date="1547990649734" expanded="true" signature="27:3633" ph="{...}" />
+            <marker date="1547990649734" expanded="true" signature="30:70" ph="/// 牌分类处理 ... " />
+            <marker date="1547990649734" expanded="true" signature="112:3631" ph="{...}" />
+            <marker date="1547990649734" expanded="true" signature="116:231" ph="/// 对出牌类型进行分类 ... " />
+            <marker date="1547990649734" expanded="true" signature="285:648" ph="{...}" />
+            <marker date="1547990649734" expanded="true" signature="373:644" ph="{...}" />
+            <marker date="1547990649734" expanded="true" signature="652:779" ph="/// 出牌数为单张卡处理 可能为单牌(例: 3) ... " />
+            <marker date="1547990649734" expanded="true" signature="836:861" ph="{...}" />
+            <marker date="1547990649734" expanded="true" signature="865:1004" ph="/// 出牌数为两张卡处理 可能为对子(例: 33)或者王炸(例: BS) ... " />
+            <marker date="1547990649734" expanded="true" signature="1062:1247" ph="{...}" />
+            <marker date="1547990649734" expanded="true" signature="1101:1126" ph="{...}" />
+            <marker date="1547990649734" expanded="true" signature="1179:1206" ph="{...}" />
+            <marker date="1547990649734" expanded="true" signature="1251:1380" ph="/// 出牌数为三张卡处理 可能为三牌(例: 333) ... " />
+            <marker date="1547990649734" expanded="true" signature="1440:1574" ph="{...}" />
+            <marker date="1547990649734" expanded="true" signature="1508:1535" ph="{...}" />
+            <marker date="1547990649734" expanded="true" signature="1578:1722" ph="/// 出牌数为四张卡处理 可能为炸弹(例: 3333)或者三带一(例: 3334) ... " />
+            <marker date="1547990649734" expanded="true" signature="1781:2115" ph="{...}" />
+            <marker date="1547990649734" expanded="true" signature="1875:1900" ph="{...}" />
+            <marker date="1547990649734" expanded="true" signature="2035:2074" ph="{...}" />
+            <marker date="1547990649734" expanded="true" signature="2119:2235" ph="/// 五张及以上卡判断类型 ... " />
+            <marker date="1547990649734" expanded="true" signature="2300:2971" ph="{...}" />
+            <marker date="1547990649734" expanded="true" signature="2508:2547" ph="{...}" />
+            <marker date="1547990649734" expanded="true" signature="2842:2883" ph="{...}" />
+            <marker date="1547990649734" expanded="true" signature="2888:2930" ph="/* 飞机判断(33344456 333444555678) ... */" />
+            <marker date="1547990649734" expanded="true" signature="2975:3096" ph="/// 顺子判断 ... " />
+            <marker date="1547990649734" expanded="true" signature="3154:3628" ph="{...}" />
+            <marker date="1547990649734" expanded="true" signature="3386:3422" ph="{...}" />
+            <marker date="1547990649734" expanded="true" signature="3476:3512" ph="{...}" />
+            <marker date="1547990649734" expanded="true" signature="3566:3602" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FightTheLandlord/CardGetService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <marker date="1548345859593" expanded="false" signature="6:32" ph="..." />
+            <marker date="1548345859593" expanded="true" signature="61:1626" ph="{...}" />
+            <marker date="1548345859593" expanded="true" signature="64:102" ph="/// 发牌类 ... " />
+            <marker date="1548345859593" expanded="true" signature="139:1624" ph="{...}" />
+            <marker date="1548345859593" expanded="true" signature="236:458" ph="/// 得到三副发好的牌 ... " />
+            <marker date="1548345859593" expanded="true" signature="575:1621" ph="{...}" />
+            <marker date="1548345859593" expanded="true" signature="660:705" ph="{...}" />
+            <marker date="1548345859593" expanded="true" signature="1065:1402" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FightTheLandlord/CardCompareService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <marker date="1547393067586" expanded="true" signature="27:1150" ph="{...}" />
+            <marker date="1547393067586" expanded="true" signature="30:88" ph="/// 牌大小比较类 比较大小后确定是否能大过上家的牌 ... " />
+            <marker date="1547393067586" expanded="true" signature="129:1148" ph="{...}" />
+            <marker date="1547393067586" expanded="true" signature="133:246" ph="/// 单张牌 ... " />
+            <marker date="1547393067586" expanded="true" signature="302:415" ph="/// 对子牌 ... " />
+            <marker date="1547393067586" expanded="true" signature="472:584" ph="/// 王炸 ... " />
+            <marker date="1547393067586" expanded="true" signature="638:751" ph="/// 三张牌 ... " />
+            <marker date="1547393067586" expanded="true" signature="810:923" ph="/// 三带一 ... " />
+            <marker date="1547393067586" expanded="true" signature="987:1099" ph="/// 炸弹 ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FightTheLandlord/CardService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1503">
+          <caret line="45" column="31" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
+          <folding>
+            <marker date="1547990662538" expanded="true" signature="47:2739" ph="{...}" />
+            <marker date="1547990662538" expanded="true" signature="50:91" ph="/// 卡牌基本操作 ... " />
+            <marker date="1547990662538" expanded="true" signature="125:2737" ph="{...}" />
+            <marker date="1547990662538" expanded="true" signature="129:249" ph="/// 出牌合法性判断 是否有无效牌 ... " />
+            <marker date="1547990662538" expanded="true" signature="295:689" ph="{...}" />
+            <marker date="1547990662538" expanded="true" signature="361:668" ph="{...}" />
+            <marker date="1547990662538" expanded="true" signature="384:663" ph="{...}" />
+            <marker date="1547990662538" expanded="true" signature="693:818" ph="/// 对卡牌顺序进行排序 以便后续操作 ... " />
+            <marker date="1547990662538" expanded="true" signature="863:1061" ph="{...}" />
+            <marker date="1547990662538" expanded="true" signature="958:999" ph="{...}" />
+            <marker date="1547990662538" expanded="true" signature="1065:1188" ph="/// 根据字符得到对应卡牌的数组序号 ... " />
+            <marker date="1547990662538" expanded="true" signature="1232:1716" ph="{...}" />
+            <marker date="1547990662538" expanded="true" signature="1250:1697" ph="{...}" />
+            <marker date="1547990662538" expanded="true" signature="1720:1846" ph="/// 通过数组排列字符串 ... " />
+            <marker date="1547990662538" expanded="true" signature="1899:2734" ph="{...}" />
+            <marker date="1547990662538" expanded="true" signature="1998:2072" ph="{...}" />
+            <marker date="1547990662538" expanded="true" signature="2038:2067" ph="{...}" />
+            <marker date="1547990662538" expanded="true" signature="2123:2150" ph="{...}" />
+            <marker date="1547990662538" expanded="true" signature="2200:2229" ph="{...}" />
+            <marker date="1547990662538" expanded="true" signature="2279:2308" ph="{...}" />
+            <marker date="1547990662538" expanded="true" signature="2358:2387" ph="{...}" />
+            <marker date="1547990662538" expanded="true" signature="2436:2465" ph="{...}" />
+            <marker date="1547990662538" expanded="true" signature="2514:2543" ph="{...}" />
+            <marker date="1547990662538" expanded="true" signature="2593:2622" ph="{...}" />
+            <marker date="1547990662538" expanded="true" signature="2672:2701" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FightTheLandlord/MainGame.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+          <folding>
+            <marker date="1548427046129" expanded="false" signature="6:102" ph="..." />
+            <marker date="1548427046129" expanded="true" signature="131:1359" ph="{...}" />
+            <marker date="1548427046129" expanded="true" signature="134:173" ph="/// 游戏主体 ... " />
+            <marker date="1548427046129" expanded="true" signature="204:1357" ph="{...}" />
+            <marker date="1548427046129" expanded="true" signature="452:495" ph="/// Main函数 ... " />
+            <marker date="1548427046129" expanded="true" signature="524:551" ph="{...}" />
+            <marker date="1548427046129" expanded="true" signature="555:599" ph="/// 游戏开始前准备 ... " />
+            <marker date="1548427046129" expanded="true" signature="630:734" ph="{...}" />
+            <marker date="1548427046129" expanded="true" signature="738:778" ph="/// 抢地主 ... " />
+            <marker date="1548427046129" expanded="true" signature="818:1119" ph="{...}" />
+            <marker date="1548427046129" expanded="true" signature="934:1030" ph="{...}" />
+            <marker date="1548427046129" expanded="true" signature="963:995" ph="{...}" />
+            <marker date="1548427046129" expanded="true" signature="1123:1164" ph="/// 游戏主体 ... " />
+            <marker date="1548427046129" expanded="true" signature="1193:1202" ph="{...}" />
+            <marker date="1548427046129" expanded="true" signature="1206:1249" ph="///  ... " />
+            <marker date="1548427046129" expanded="true" signature="1292:1348" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

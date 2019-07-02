@@ -11,7 +11,7 @@ namespace FightTheLandlord {
 		private static string landlordCards = ""; // 地主牌
 		private static string[] player = {"", "", ""};
 		private static int landlord = 1; // 地主玩家序号
-		private static int currentPlayer; // 当前玩家
+		private static int currentPlayer = -1; // 当前玩家
 
 		/// <summary>
 		/// Main函数
@@ -34,9 +34,16 @@ namespace FightTheLandlord {
 		/// </summary>
 		private static void SelectLandlord() {
 			Random random = new Random();
-			int beginPlayer = random.Next(3);
+			currentPlayer = random.Next(3);
 
 			// 抢地主过程...
+			for(int i = 0; i < 3; i++) {
+				if(currentPlayer == 3) {
+					currentPlayer -= 3;
+				}
+				
+				ShowCurrentPlayer();
+			}
 
 			player[landlord] += landlordCards;
 			player[landlord] = Sort(player[landlord]);
@@ -45,6 +52,17 @@ namespace FightTheLandlord {
 		/// <summary>
 		/// 游戏主体
 		/// </summary>
-		private static void Run() { }
+		private static void Run() {
+			
+		}
+
+		/// <summary>
+		/// 显示当前用户
+		/// </summary>
+		private static void ShowCurrentPlayer() {
+			Console.Write($"当前玩家为Player{currentPlayer}: ");
+		}
+		
+		
 	}
 }

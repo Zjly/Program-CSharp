@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="84b83216-ff96-449d-89e6-806da1e000f9" name="Default Changelist" comment="">
+    <list default="true" id="82298962-7f33-4637-8a56-d3b6538c6ea1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Character recognition/.idea/.idea.Program/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Character recognition/.idea/.idea.Program/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Class Schedule/ClassSchedule/ClassSchedule.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../Class Schedule/ClassSchedule/ClassSchedule.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Class Schedule/ClassSchedule/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Class Schedule/ClassSchedule/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Class Schedule/ClassSchedule/VerificationCodeRecognition.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fight The Landlord/FightTheLandlord/MainGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Fight The Landlord/FightTheLandlord/MainGame.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Game2048/.idea/.idea.Game2048/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Game2048/.idea/.idea.Game2048/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,33 +24,23 @@
     <option name="width" value="1750" />
     <option name="height" value="1030" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
       <pane id="SolutionExplorer">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="Game2048" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
         <option name="show-all-files" value="false" />
       </pane>
-      <pane id="AssemblyExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Character recognition/Program.sln" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../C# programming/Homework" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="CodeLensConfigurable" />
@@ -87,34 +82,25 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="84b83216-ff96-449d-89e6-806da1e000f9" name="Default Changelist" comment="" />
-      <created>1547394593172</created>
+      <changelist id="82298962-7f33-4637-8a56-d3b6538c6ea1" name="Default Changelist" comment="" />
+      <created>1562054765470</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1547394593172</updated>
-      <workItem from="1547394594468" duration="45000" />
-      <workItem from="1547394969412" duration="267000" />
-      <workItem from="1547813591652" duration="74000" />
+      <updated>1562054765470</updated>
+      <workItem from="1562054766727" duration="281000" />
     </task>
-    <task id="LOCAL-00001" summary="Game2048">
-      <created>1547395212449</created>
+    <task id="LOCAL-00001" summary="Management System">
+      <created>1562054830008</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1547395212449</updated>
+      <updated>1562054830008</updated>
     </task>
-    <task id="LOCAL-00002" summary="Game2048">
-      <created>1547813639918</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1547813639918</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="386000" />
+    <option name="totallyTimeSpent" value="281000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -128,7 +114,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4969574" visible="true" weight="0.27345845" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4969574" visible="true" weight="0.26724714" />
       <window_info id="Structure" order="1" sideWeight="0.5030426" side_tool="true" weight="0.26340482" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -161,20 +147,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Game2048" />
-    <option name="LAST_COMMIT_MESSAGE" value="Game2048" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
-          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
-          <option name="timeStamp" value="1" />
-        </breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Management System" />
+    <option name="LAST_COMMIT_MESSAGE" value="Management System" />
   </component>
 </project>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\94247\.Rider2019.1\config\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\94247\.Rider2019.1\config\scratches" t="IncludeRecursive" />
+    <e p="C:\Users\94247\.Rider2019.1\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\94247\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_ManagementSystem.-189569057.00" t="ExcludeRecursive" />
+    <e p="E:\Coding\C#\Program\Management System" t="IncludeFlat">
+      <e p="Management System" t="IncludeRecursive">
+        <e p="AddDialog.cs" t="Include" />
+        <e p="AddDialog.Designer.cs" t="Include" />
+        <e p="AddDialog.resx" t="Include" />
+        <e p="App.config" t="Include" />
+        <e p="Athletes.cs" t="Include" />
+        <e p="AthletesDialog.cs" t="Include" />
+        <e p="AthletesDialog.Designer.cs" t="Include" />
+        <e p="AthletesDialog.resx" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="LoginDialog.cs" t="Include" />
+        <e p="LoginDialog.Designer.cs" t="Include" />
+        <e p="LoginDialog.resx" t="Include" />
+        <e p="Management System.csproj" t="IncludeRecursive" />
+        <e p="ManagementDatabase.cs" t="Include" />
+        <e p="ManagementService.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+          <e p="DataSources" t="Include">
+            <e p="Athlete.datasource" t="Include" />
+            <e p="Athletes.datasource" t="Include" />
+          </e>
+          <e p="Resources.Designer.cs" t="Include" />
+          <e p="Resources.resx" t="Include" />
+          <e p="Settings.Designer.cs" t="Include" />
+          <e p="Settings.settings" t="Include" />
+        </e>
+        <e p="ReviseDialog.cs" t="Include" />
+        <e p="ReviseDialog.Designer.cs" t="Include" />
+        <e p="ReviseDialog.resx" t="Include" />
+        <e p="SearchDialog.cs" t="Include" />
+        <e p="SearchDialog.Designer.cs" t="Include" />
+        <e p="SearchDialog.resx" t="Include" />
+      </e>
+      <e p="ManagementSystem.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
