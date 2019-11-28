@@ -13,7 +13,7 @@ using System.Xml.Xsl;
 namespace OrderManagementSystem {
 	public static class OrderService {
 		// 从程序中导入数据
-		public static void AddOrder(ref List<OrderDetails> list, string line) {
+		public static void AddOrder(List<OrderDetails> list, string line) {
 			OrderDetails orderDetails = new OrderDetails();
 			// 分割字符串
 			line = new System.Text.RegularExpressions.Regex("[\\s]+").Replace(line, "	");
