@@ -1,0 +1,25 @@
+E:\Coding\C#\Program\Management System\Management System\bin\Debug\Management System.exe.config
+E:\Coding\C#\Program\Management System\Management System\bin\Debug\Management System.exe
+E:\Coding\C#\Program\Management System\Management System\bin\Debug\Management System.pdb
+E:\Coding\C#\Program\Management System\Management System\bin\Debug\EntityFramework.dll
+E:\Coding\C#\Program\Management System\Management System\bin\Debug\EntityFramework.SqlServer.dll
+E:\Coding\C#\Program\Management System\Management System\bin\Debug\MySql.Data.dll
+E:\Coding\C#\Program\Management System\Management System\bin\Debug\MySql.Data.Entity.EF6.dll
+E:\Coding\C#\Program\Management System\Management System\bin\Debug\EntityFramework.xml
+E:\Coding\C#\Program\Management System\Management System\bin\Debug\EntityFramework.SqlServer.xml
+E:\Coding\C#\Program\Management System\Management System\bin\Debug\MySql.Data.xml
+E:\Coding\C#\Program\Management System\Management System\bin\Debug\MySql.Data.Entity.EF6.xml
+E:\Coding\C#\Program\Management System\Management System\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\Coding\C#\Program\Management System\Management System\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+E:\Coding\C#\Program\Management System\Management System\obj\Debug\Management System.csprojAssemblyReference.cache
+E:\Coding\C#\Program\Management System\Management System\obj\Debug\ManagementSystem.AddDialog.resources
+E:\Coding\C#\Program\Management System\Management System\obj\Debug\ManagementSystem.AthletesDialog.resources
+E:\Coding\C#\Program\Management System\Management System\obj\Debug\ManagementSystem.LoginDialog.resources
+E:\Coding\C#\Program\Management System\Management System\obj\Debug\ManagementSystem.Properties.Resources.resources
+E:\Coding\C#\Program\Management System\Management System\obj\Debug\ManagementSystem.ReviseDialog.resources
+E:\Coding\C#\Program\Management System\Management System\obj\Debug\ManagementSystem.SearchDialog.resources
+E:\Coding\C#\Program\Management System\Management System\obj\Debug\Management System.csproj.GenerateResource.cache
+E:\Coding\C#\Program\Management System\Management System\obj\Debug\Management System.csproj.CoreCompileInputs.cache
+E:\Coding\C#\Program\Management System\Management System\obj\Debug\Management System.csproj.CopyComplete
+E:\Coding\C#\Program\Management System\Management System\obj\Debug\Management System.exe
+E:\Coding\C#\Program\Management System\Management System\obj\Debug\Management System.pdb

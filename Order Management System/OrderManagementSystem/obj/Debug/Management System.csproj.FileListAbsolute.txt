@@ -1,0 +1,23 @@
+C:\Users\94247\Desktop\Management System\OrderManagementSystem\bin\Debug\OrderManagementSystem.exe.config
+C:\Users\94247\Desktop\Management System\OrderManagementSystem\bin\Debug\OrderManagementSystem.exe
+C:\Users\94247\Desktop\Management System\OrderManagementSystem\bin\Debug\OrderManagementSystem.pdb
+C:\Users\94247\Desktop\Management System\OrderManagementSystem\bin\Debug\EntityFramework.dll
+C:\Users\94247\Desktop\Management System\OrderManagementSystem\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\94247\Desktop\Management System\OrderManagementSystem\bin\Debug\MySql.Data.dll
+C:\Users\94247\Desktop\Management System\OrderManagementSystem\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\94247\Desktop\Management System\OrderManagementSystem\bin\Debug\EntityFramework.xml
+C:\Users\94247\Desktop\Management System\OrderManagementSystem\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\94247\Desktop\Management System\OrderManagementSystem\bin\Debug\MySql.Data.xml
+C:\Users\94247\Desktop\Management System\OrderManagementSystem\bin\Debug\MySql.Data.Entity.EF6.xml
+C:\Users\94247\Desktop\Management System\OrderManagementSystem\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\94247\Desktop\Management System\OrderManagementSystem\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+C:\Users\94247\Desktop\Management System\OrderManagementSystem\obj\Debug\Management System.csprojAssemblyReference.cache
+C:\Users\94247\Desktop\Management System\OrderManagementSystem\obj\Debug\OrderManagementSystem.Add.resources
+C:\Users\94247\Desktop\Management System\OrderManagementSystem\obj\Debug\OrderManagementSystem.Form1.resources
+C:\Users\94247\Desktop\Management System\OrderManagementSystem\obj\Debug\OrderManagementSystem.Properties.Resources.resources
+C:\Users\94247\Desktop\Management System\OrderManagementSystem\obj\Debug\OrderManagementSystem.Revise.resources
+C:\Users\94247\Desktop\Management System\OrderManagementSystem\obj\Debug\Management System.csproj.GenerateResource.cache
+C:\Users\94247\Desktop\Management System\OrderManagementSystem\obj\Debug\Management System.csproj.CoreCompileInputs.cache
+C:\Users\94247\Desktop\Management System\OrderManagementSystem\obj\Debug\Management System.csproj.CopyComplete
+C:\Users\94247\Desktop\Management System\OrderManagementSystem\obj\Debug\OrderManagementSystem.exe
+C:\Users\94247\Desktop\Management System\OrderManagementSystem\obj\Debug\OrderManagementSystem.pdb

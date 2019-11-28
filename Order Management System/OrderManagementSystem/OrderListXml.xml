@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<ArrayOfOrderDetails xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <OrderDetails>
+    <OrderTime>2018-09-18T00:00:00</OrderTime>
+    <OrderNumber>20180918191</OrderNumber>
+    <Goods>
+      <Goods>
+        <GoodsNumber>1</GoodsNumber>
+        <TradeName>湖北移动手机话费充值</TradeName>
+        <Type>话费30元</Type>
+        <UnitPrice>29.94</UnitPrice>
+        <Count>1</Count>
+        <TotalPrice>29.94</TotalPrice>
+      </Goods>
+      <Goods>
+        <GoodsNumber>2</GoodsNumber>
+        <TradeName>Victor羽毛球</TradeName>
+        <Type>大师6号</Type>
+        <UnitPrice>66.37</UnitPrice>
+        <Count>1</Count>
+        <TotalPrice>66.37</TotalPrice>
+      </Goods>
+    </Goods>
+
+      <CustomerName>张三</CustomerName>
+      <PhoneNumber>13723441368</PhoneNumber>
+
+  </OrderDetails>
+  <OrderDetails>
+    <OrderTime>2018-09-19T00:00:00</OrderTime>
+    <OrderNumber>20180919461</OrderNumber>
+    <Goods>
+      <Goods>
+        <GoodsNumber>1</GoodsNumber>
+        <TradeName>得力工作笔记本</TradeName>
+        <Type>拾木12本装</Type>
+        <UnitPrice>22.8</UnitPrice>
+        <Count>1</Count>
+        <TotalPrice>22.8</TotalPrice>
+      </Goods>
+    </Goods>
+
+      <CustomerName>张三</CustomerName>
+      <PhoneNumber>13723441368</PhoneNumber>
+
+  </OrderDetails>
+  <OrderDetails>
+    <OrderTime>2018-04-18T00:00:00</OrderTime>
+    <OrderNumber>20180418924</OrderNumber>
+    <Goods>
+      <Goods>
+        <GoodsNumber>1</GoodsNumber>
+        <TradeName>康师傅妙芙蛋糕</TradeName>
+        <Type>巧克力味288g</Type>
+        <UnitPrice>12.8</UnitPrice>
+        <Count>2</Count>
+        <TotalPrice>25.6</TotalPrice>
+      </Goods>
+      <Goods>
+        <GoodsNumber>2</GoodsNumber>
+        <TradeName>康师傅妙芙蛋糕</TradeName>
+        <Type>原味288g</Type>
+        <UnitPrice>12.8</UnitPrice>
+        <Count>1</Count>
+        <TotalPrice>12.8</TotalPrice>
+      </Goods>
+      <Goods>
+        <GoodsNumber>3</GoodsNumber>
+        <TradeName>得力工作笔记本</TradeName>
+        <Type>拾木12本装</Type>
+        <UnitPrice>22.8</UnitPrice>
+        <Count>3</Count>
+        <TotalPrice>68.4</TotalPrice>
+      </Goods>
+    </Goods>
+
+      <CustomerName>李四</CustomerName>
+      <PhoneNumber>0571-85192626</PhoneNumber>
+
+  </OrderDetails>
+  <OrderDetails>
+    <OrderTime>2018-08-20T00:00:00</OrderTime>
+    <OrderNumber>20180820249</OrderNumber>
+    <Goods>
+      <Goods>
+        <GoodsNumber>1</GoodsNumber>
+        <TradeName>良品铺子零食</TradeName>
+        <Type>零食大礼包</Type>
+        <UnitPrice>90.1</UnitPrice>
+        <Count>1</Count>
+        <TotalPrice>90.1</TotalPrice>
+      </Goods>
+      <Goods>
+        <GoodsNumber>2</GoodsNumber>
+        <TradeName>得力工作笔记本</TradeName>
+        <Type>拾木12本装</Type>
+        <UnitPrice>22.8</UnitPrice>
+        <Count>2</Count>
+        <TotalPrice>45.6</TotalPrice>
+      </Goods>
+    </Goods>
+
+      <CustomerName>王五</CustomerName>
+      <PhoneNumber>15347984564</PhoneNumber>
+
+  </OrderDetails>
+</ArrayOfOrderDetails>

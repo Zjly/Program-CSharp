@@ -1,0 +1,12 @@
+E:\Coding\GitHub\CSharp_Homework_2017302580196\Homework7\Program7_1\bin\Debug\Program7_1.exe.config
+E:\Coding\GitHub\CSharp_Homework_2017302580196\Homework7\Program7_1\bin\Debug\Program7_1.exe
+E:\Coding\GitHub\CSharp_Homework_2017302580196\Homework7\Program7_1\bin\Debug\Program7_1.pdb
+E:\Coding\GitHub\CSharp_Homework_2017302580196\Homework7\Program7_1\obj\Debug\Program7_1.csprojAssemblyReference.cache
+E:\Coding\GitHub\CSharp_Homework_2017302580196\Homework7\Program7_1\obj\Debug\Program7_1.Form1.resources
+E:\Coding\GitHub\CSharp_Homework_2017302580196\Homework7\Program7_1\obj\Debug\Program7_1.Properties.Resources.resources
+E:\Coding\GitHub\CSharp_Homework_2017302580196\Homework7\Program7_1\obj\Debug\Program7_1.csproj.GenerateResource.cache
+E:\Coding\GitHub\CSharp_Homework_2017302580196\Homework7\Program7_1\obj\Debug\Program7_1.csproj.CoreCompileInputs.cache
+E:\Coding\GitHub\CSharp_Homework_2017302580196\Homework7\Program7_1\obj\Debug\Program7_1.exe
+E:\Coding\GitHub\CSharp_Homework_2017302580196\Homework7\Program7_1\obj\Debug\Program7_1.pdb
+E:\Coding\GitHub\CSharp_Homework_2017302580196\Homework7\Program7_1\obj\Debug\Program7_1.Add.resources
+E:\Coding\GitHub\CSharp_Homework_2017302580196\Homework7\Program7_1\obj\Debug\Program7_1.Revise.resources
