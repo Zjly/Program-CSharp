@@ -33,9 +33,6 @@ namespace OrderManagementSystem {
 		public Form1() {
 			InitializeComponent();
 
-			//此处为添加初始数据的方法，在第一次运行时调用他即可新建数据库并向其中加入几条初始订单，使用完毕后注释掉即可
-			//AddInitialOrder();
-
 			// 绑定order
 			bindingSource1.DataSource = GetAllOrders();
 
@@ -43,19 +40,6 @@ namespace OrderManagementSystem {
 			QueryText.DataBindings.Add("Text", this, "KeyWord");
 		}
 
-		private void AddInitialOrder() {
-			AddOrder("2018-09-18 20180918191 湖北移动手机话费充值 话费30元 29.94 1 张三 13723441368");
-			AddOrder("2018-09-18 20180918191 Victor羽毛球 大师6号 66.37 1 张三 13723441368");
-
-			AddOrder("2018-09-19 20180919461 得力工作笔记本 拾木12本装 22.8 1	张三 13723441368");
-
-			AddOrder("2018-04-18 20180418924 康师傅妙芙蛋糕 巧克力味288g 12.8 2 李四 13846513856");
-			AddOrder("2018-04-18 20180418924 康师傅妙芙蛋糕 原味288g 12.8 1 李四 13846513856");
-			AddOrder("2018-04-18 20180418924 得力工作笔记本 拾木12本装 22.8 3 李四 13846513856");
-
-			AddOrder("2018-08-20 20180820249 良品铺子零食 零食大礼包 90.1 1 王五 15347984564");
-			AddOrder("2018-08-20 20180820249 得力工作笔记本 拾木12本装 22.8 2	王五 15347984564");
-		}
 
 		/// <summary>
 		/// 查询订单
@@ -142,7 +126,7 @@ namespace OrderManagementSystem {
 		/// <param name="e"></param>
 		private void DisplayButton_Click(object sender, EventArgs e) {
 			// 重新得到现有订单并显示
-            bindingSource1.DataSource = GetAllOrders();
+			bindingSource1.DataSource = GetAllOrders();
 		}
 
 		/// <summary>
@@ -165,7 +149,7 @@ namespace OrderManagementSystem {
 			add.ShowDialog();
 
 			// 关闭窗口后重新得到现有订单并显示
-            bindingSource1.DataSource = GetAllOrders();
+			bindingSource1.DataSource = GetAllOrders();
 		}
 
 		/// <summary>
@@ -175,11 +159,11 @@ namespace OrderManagementSystem {
 		/// <param name="e"></param>
 		private void AddButton2_Click(object sender, EventArgs e) {
 			// 新建一个add的窗口并显示，并将选中的订单（待添加货物所属订单）传参
-            Add add = new Add(this, (OrderDetails) DeleteComboBox1.SelectedItem);
+			Add add = new Add(this, (OrderDetails) DeleteComboBox1.SelectedItem);
 			add.ShowDialog();
 
 			// 关闭窗口后重新得到现有订单并显示
-            bindingSource1.DataSource = GetAllOrders();
+			bindingSource1.DataSource = GetAllOrders();
 		}
 
 		/// <summary>

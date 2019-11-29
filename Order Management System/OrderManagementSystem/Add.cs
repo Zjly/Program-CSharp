@@ -147,6 +147,7 @@ namespace OrderManagementSystem {
 		/// <param name="sender"></param>
 		/// <param name="e"></param>
 		private void Add_FormClosed(object sender, FormClosedEventArgs e) {
+			// 重置order
 			order = new List<OrderDetails>();
 		}
 	}
