@@ -88,11 +88,16 @@ namespace OrderManagementSystem {
 			// 得到选定的待删除的订单
 			OrderDetails selectOrder = (OrderDetails) DeleteComboBox1.SelectedItem;
 
-			// 删除订单操作
-			DeleteOrder(selectOrder.OrderNumber);
+			// 确认框
+			DialogResult result =
+				MessageBox.Show("确定删除订单[" + selectOrder + "]吗？", "删除", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+			if(result == DialogResult.Yes) {
+				// 删除订单操作
+				DeleteOrder(selectOrder.OrderNumber);
 
-			// 重新得到现有订单并显示
-			bindingSource1.DataSource = GetAllOrders();
+				// 重新得到现有订单并显示
+				bindingSource1.DataSource = GetAllOrders();
+			}
 		}
 
 		/// <summary>
@@ -107,16 +112,21 @@ namespace OrderManagementSystem {
 			// 得到选定的待删除的货物
 			Goods selectGoods = (Goods) DeleteComboBox2.SelectedItem;
 
-			// 删除货物操作
-			DeleteGoods(selectOrder.OrderNumber, selectGoods.GoodsNumber);
+			// 确认框
+			DialogResult result =
+				MessageBox.Show("确定删除货物[" + selectGoods + "]吗？", "删除", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+			if(result == DialogResult.Yes) {
+				// 删除货物操作
+				DeleteGoods(selectOrder.OrderNumber, selectGoods.GoodsNumber);
 
-			// 如若删除该货物后该订单为空则删除该订单
-			if(GetOrder(selectOrder.OrderNumber).Goods.Count == 0) {
-				DeleteOrder(selectOrder.OrderNumber);
+				// 如若删除该货物后该订单为空则删除该订单
+				if(GetOrder(selectOrder.OrderNumber).Goods.Count == 0) {
+					DeleteOrder(selectOrder.OrderNumber);
+				}
+
+				// 重新得到现有订单并显示
+				bindingSource1.DataSource = GetAllOrders();
 			}
-
-			// 重新得到现有订单并显示
-			bindingSource1.DataSource = GetAllOrders();
 		}
 
 		/// <summary>
@@ -135,7 +145,7 @@ namespace OrderManagementSystem {
 		/// <param name="sender"></param>
 		/// <param name="e"></param>
 		private void SaveButton_Click(object sender, EventArgs e) {
-			//ExportDataToXml(order, @"..\..\OrderListXml.xml");
+			ExportDataToXml(@"..\..\..\.\files\OrderListXml.xml");
 		}
 
 		/// <summary>
@@ -145,7 +155,7 @@ namespace OrderManagementSystem {
 		/// <param name="e"></param>
 		private void AddButton_Click(object sender, EventArgs e) {
 			// 新建一个add的窗口并显示
-			Add add = new Add(this);
+			Add add = new Add();
 			add.ShowDialog();
 
 			// 关闭窗口后重新得到现有订单并显示
@@ -159,7 +169,7 @@ namespace OrderManagementSystem {
 		/// <param name="e"></param>
 		private void AddButton2_Click(object sender, EventArgs e) {
 			// 新建一个add的窗口并显示，并将选中的订单（待添加货物所属订单）传参
-			Add add = new Add(this, (OrderDetails) DeleteComboBox1.SelectedItem);
+			Add add = new Add((OrderDetails) DeleteComboBox1.SelectedItem);
 			add.ShowDialog();
 
 			// 关闭窗口后重新得到现有订单并显示
@@ -191,7 +201,7 @@ namespace OrderManagementSystem {
 		/// <param name="sender"></param>
 		/// <param name="e"></param>
 		private void button1_Click(object sender, EventArgs e) {
-			//XslTransform(order, @"..\..\OrderXSLT.xslt");
+			XslTransform(order, @"..\..\OrderXSLT.xslt");
 		}
 	}
 }

@@ -26,24 +26,10 @@ namespace OrderManagementSystem {
 		public readonly List<OrderDetails> orderNull = new List<OrderDetails>();
 
 		/// <summary>
-		/// 主界面类对象
-		/// </summary>
-		private Form1 form1;
-
-		/// <summary>
-		/// 默认构造函数
+		/// 构造函数，传入form1参数
 		/// </summary>
 		public Add() {
 			InitializeComponent();
-		}
-
-		/// <summary>
-		/// 构造函数，传入form1参数
-		/// </summary>
-		/// <param name="form1">主界面类对象</param>
-		public Add(Form1 form1) {
-			InitializeComponent();
-			this.form1 = form1;
 
 			// 显示添加订单的信息
 			AddBindingSource.DataSource = order;
@@ -52,12 +38,10 @@ namespace OrderManagementSystem {
 		/// <summary>
 		/// 构造函数，传入添加货物所需的订单信息
 		/// </summary>
-		/// <param name="form1">主界面类对象</param>
 		/// <param name="selectOrder">待添加货物的订单</param>
-		public Add(Form1 form1, OrderDetails selectOrder) {
+		public Add(OrderDetails selectOrder) {
 			InitializeComponent();
 			AddBindingSource.DataSource = order;
-			this.form1 = form1;
 
 			// 导入货物所属订单的信息
 			dateTimePicker1.Text = selectOrder.OrderTime.ToString();

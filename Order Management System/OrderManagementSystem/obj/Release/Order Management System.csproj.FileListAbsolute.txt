@@ -1,0 +1,23 @@
+E:\Coding\C#\Program\Order Management System\OrderManagementSystem\bin\Release\OrderManagementSystem.exe.config
+E:\Coding\C#\Program\Order Management System\OrderManagementSystem\bin\Release\OrderManagementSystem.exe
+E:\Coding\C#\Program\Order Management System\OrderManagementSystem\bin\Release\OrderManagementSystem.pdb
+E:\Coding\C#\Program\Order Management System\OrderManagementSystem\bin\Release\EntityFramework.dll
+E:\Coding\C#\Program\Order Management System\OrderManagementSystem\bin\Release\EntityFramework.SqlServer.dll
+E:\Coding\C#\Program\Order Management System\OrderManagementSystem\bin\Release\MySql.Data.dll
+E:\Coding\C#\Program\Order Management System\OrderManagementSystem\bin\Release\MySql.Data.Entity.EF6.dll
+E:\Coding\C#\Program\Order Management System\OrderManagementSystem\bin\Release\EntityFramework.xml
+E:\Coding\C#\Program\Order Management System\OrderManagementSystem\bin\Release\EntityFramework.SqlServer.xml
+E:\Coding\C#\Program\Order Management System\OrderManagementSystem\bin\Release\MySql.Data.xml
+E:\Coding\C#\Program\Order Management System\OrderManagementSystem\bin\Release\MySql.Data.Entity.EF6.xml
+E:\Coding\C#\Program\Order Management System\OrderManagementSystem\bin\Release\zh-Hans\EntityFramework.resources.dll
+E:\Coding\C#\Program\Order Management System\OrderManagementSystem\bin\Release\zh-Hans\EntityFramework.SqlServer.resources.dll
+E:\Coding\C#\Program\Order Management System\OrderManagementSystem\obj\Release\Order Management System.csprojAssemblyReference.cache
+E:\Coding\C#\Program\Order Management System\OrderManagementSystem\obj\Release\OrderManagementSystem.Add.resources
+E:\Coding\C#\Program\Order Management System\OrderManagementSystem\obj\Release\OrderManagementSystem.Form1.resources
+E:\Coding\C#\Program\Order Management System\OrderManagementSystem\obj\Release\OrderManagementSystem.Properties.Resources.resources
+E:\Coding\C#\Program\Order Management System\OrderManagementSystem\obj\Release\OrderManagementSystem.Revise.resources
+E:\Coding\C#\Program\Order Management System\OrderManagementSystem\obj\Release\Order Management System.csproj.GenerateResource.cache
+E:\Coding\C#\Program\Order Management System\OrderManagementSystem\obj\Release\Order Management System.csproj.CoreCompileInputs.cache
+E:\Coding\C#\Program\Order Management System\OrderManagementSystem\obj\Release\Order Management System.csproj.CopyComplete
+E:\Coding\C#\Program\Order Management System\OrderManagementSystem\obj\Release\OrderManagementSystem.exe
+E:\Coding\C#\Program\Order Management System\OrderManagementSystem\obj\Release\OrderManagementSystem.pdb

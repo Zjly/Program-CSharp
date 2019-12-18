@@ -12,8 +12,8 @@ using static OrderManagementSystem.OrderService;
 
 namespace OrderManagementSystem {
 	/// <summary>
-    /// 订单管理系统更改页面
-    /// </summary>
+	/// 订单管理系统更改页面
+	/// </summary>
 	public partial class Revise : Form {
 		/// <summary>
 		/// 订单列表
@@ -26,44 +26,21 @@ namespace OrderManagementSystem {
 		public readonly List<OrderDetails> orderNull = new List<OrderDetails>();
 
 		/// <summary>
-		/// 主界面类对象
+		/// 构造函数，传入待修改的所有订单
 		/// </summary>
-        private Form1 form1;
-
-		/// <summary>
-		/// 默认构造函数
-		/// </summary>
-        public Revise() {
-			InitializeComponent();
-		}
-
-		/// <summary>
-		/// 构造函数，传入form1参数
-		/// </summary>
-		/// <param name="form1">主界面类对象</param>
-        public Revise(Form1 form1) {
-			InitializeComponent();
-			DeepCopy(ref order, Form1.order);
-			ReviseBindingSource.DataSource = order;
-			this.form1 = form1;
-		}
-
-		/// <summary>
-        /// 构造函数，传入待修改的所有订单
-        /// </summary>
-        /// <param name="orderList"></param>
+		/// <param name="orderList"></param>
 		public Revise(List<OrderDetails> orderList) {
 			InitializeComponent();
 			ReviseBindingSource.DataSource = orderList;
 			order = orderList;
 		}
 
-        /// <summary>
-        /// 进行修改
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void button1_Click(object sender, EventArgs e) {
+		/// <summary>
+		/// 进行修改
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e"></param>
+		private void button1_Click(object sender, EventArgs e) {
 			int index1 = dataGridView1.CurrentRow.Index;
 			int index2 = dataGridView2.CurrentRow.Index;
 			string attribute = comboBox2.Text;
@@ -74,23 +51,23 @@ namespace OrderManagementSystem {
 			ReviseBindingSource.DataSource = order;
 		}
 
-        /// <summary>
-        /// 帮助提示
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void button2_Click(object sender, EventArgs e) {
+		/// <summary>
+		/// 帮助提示
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e"></param>
+		private void button2_Click(object sender, EventArgs e) {
 			MessageBox.Show
 			("修改订单:\n" + "方法1: 选择要修改的订单并选择修改条目后，在输入框中输入修改的内容后" +
 			 "，点击修改按钮；\n" + "方法2: 在表格内双击要修改的的单元格，输入修改的内容.", "帮助");
 		}
 
-        /// <summary>
-        /// 保存修改 将修改完成的订单深拷贝到原订单上
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void button3_Click(object sender, EventArgs e) {
+		/// <summary>
+		/// 保存修改 将修改完成的订单深拷贝到原订单上
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e"></param>
+		private void button3_Click(object sender, EventArgs e) {
 			foreach(OrderDetails orderDetails in order) {
 				UpdateOrder(orderDetails);
 			}
@@ -98,10 +75,10 @@ namespace OrderManagementSystem {
 			Close();
 		}
 
-        /// <summary>
-        /// 显示要修改的内容
-        /// </summary>
-        private void AttributeBinding() {
+		/// <summary>
+		/// 显示要修改的内容
+		/// </summary>
+		private void AttributeBinding() {
 			label4.DataBindings.Clear();
 			string s = comboBox2.Text;
 			switch(s) {
@@ -132,21 +109,21 @@ namespace OrderManagementSystem {
 			}
 		}
 
-        /// <summary>
-        /// 选择改变后调用函数 改变修改内容的显示
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e) {
+		/// <summary>
+		/// 选择改变后调用函数 改变修改内容的显示
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e"></param>
+		private void comboBox2_SelectedIndexChanged(object sender, EventArgs e) {
 			AttributeBinding();
 		}
 
-        /// <summary>
-        /// 关闭窗口
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void Revise_FormClosed(object sender, FormClosedEventArgs e) {
+		/// <summary>
+		/// 关闭窗口
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e"></param>
+		private void Revise_FormClosed(object sender, FormClosedEventArgs e) {
 			order = new List<OrderDetails>();
 		}
 	}

@@ -37,7 +37,7 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.AddButton2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.SaveToHTMLButton = new System.Windows.Forms.Button();
             this.DeleteButton2 = new System.Windows.Forms.Button();
             this.DeleteComboBox2 = new System.Windows.Forms.ComboBox();
             this.bindingSource2 = new System.Windows.Forms.BindingSource(this.components);
@@ -80,7 +80,7 @@
             // panel1
             // 
             this.panel1.Controls.Add(this.AddButton2);
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.SaveToHTMLButton);
             this.panel1.Controls.Add(this.DeleteButton2);
             this.panel1.Controls.Add(this.DeleteComboBox2);
             this.panel1.Controls.Add(this.SaveButton);
@@ -100,7 +100,7 @@
             // 
             // AddButton2
             // 
-            this.AddButton2.Location = new System.Drawing.Point(780, 61);
+            this.AddButton2.Location = new System.Drawing.Point(780, 102);
             this.AddButton2.Name = "AddButton2";
             this.AddButton2.Size = new System.Drawing.Size(87, 29);
             this.AddButton2.TabIndex = 12;
@@ -108,15 +108,15 @@
             this.AddButton2.UseVisualStyleBackColor = true;
             this.AddButton2.Click += new System.EventHandler(this.AddButton2_Click);
             // 
-            // button1
+            // SaveToHTMLButton
             // 
-            this.button1.Location = new System.Drawing.Point(917, 103);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(119, 29);
-            this.button1.TabIndex = 11;
-            this.button1.Text = "保存为HTML";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.SaveToHTMLButton.Location = new System.Drawing.Point(917, 103);
+            this.SaveToHTMLButton.Name = "SaveToHTMLButton";
+            this.SaveToHTMLButton.Size = new System.Drawing.Size(119, 29);
+            this.SaveToHTMLButton.TabIndex = 11;
+            this.SaveToHTMLButton.Text = "保存为HTML";
+            this.SaveToHTMLButton.UseVisualStyleBackColor = true;
+            this.SaveToHTMLButton.Click += new System.EventHandler(this.button1_Click);
             // 
             // DeleteButton2
             // 
@@ -210,7 +210,7 @@
             // 
             // ReviseButton
             // 
-            this.ReviseButton.Location = new System.Drawing.Point(780, 102);
+            this.ReviseButton.Location = new System.Drawing.Point(780, 19);
             this.ReviseButton.Name = "ReviseButton";
             this.ReviseButton.Size = new System.Drawing.Size(87, 29);
             this.ReviseButton.TabIndex = 2;
@@ -230,7 +230,7 @@
             // 
             // AddButton
             // 
-            this.AddButton.Location = new System.Drawing.Point(780, 19);
+            this.AddButton.Location = new System.Drawing.Point(780, 61);
             this.AddButton.Name = "AddButton";
             this.AddButton.Size = new System.Drawing.Size(87, 29);
             this.AddButton.TabIndex = 0;
@@ -512,7 +512,7 @@
         private System.Windows.Forms.ComboBox DeleteComboBox2;
         private System.Windows.Forms.Button DeleteButton2;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button SaveToHTMLButton;
         private System.Windows.Forms.Button AddButton2;
         private System.Windows.Forms.DataGridViewTextBoxColumn orderTimeDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn orderNumberDataGridViewTextBoxColumn;
