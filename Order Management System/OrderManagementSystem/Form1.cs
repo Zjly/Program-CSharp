@@ -203,5 +203,5 @@ namespace OrderManagementSystem {
 		private void button1_Click(object sender, EventArgs e) {
 			XslTransform(order, @"..\..\OrderXSLT.xslt");
 		}
-	}
+    }
 }

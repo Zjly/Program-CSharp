@@ -121,9 +121,12 @@ namespace OrderManagementSystem {
 		/// <param name="order">待添加的订单项</param>
 		public static void AddOrder(OrderDetails order) {
 			OrderDetails orderExist = GetOrder(order.OrderNumber);
+			// 订单号不存在则在数据库中新建订单
 			if(orderExist == null) {
 				AddOrderToDatabase(order);
-			} else {
+			}
+			// 订单号存在则在原始订单下添加新加入的货物
+			else {
 				using(var db = new OrderDatabase()) {
 					db.OrderDetails.Attach(orderExist);
 					foreach(var goods in order.Goods) {
@@ -136,7 +139,7 @@ namespace OrderManagementSystem {
 		}
 
 		/// <summary>
-		/// 更新订单
+		/// 修改订单
 		/// </summary>
 		/// <param name="order"></param>
 		public static void UpdateOrder(OrderDetails order) {
