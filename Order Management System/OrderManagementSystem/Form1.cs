@@ -145,7 +145,7 @@ namespace OrderManagementSystem {
 		/// <param name="sender"></param>
 		/// <param name="e"></param>
 		private void SaveButton_Click(object sender, EventArgs e) {
-			ExportDataToXml(@"..\..\..\.\files\OrderListXml.xml");
+			ExportDataToXml(@"./OrderListXml.xml");
 		}
 
 		/// <summary>

@@ -42,9 +42,9 @@
         <GoodsNumber>ada34812-0c95-446a-8826-d47304af8b8a</GoodsNumber>
         <TradeName>得力工作笔记本</TradeName>
         <Type>拾木12本装</Type>
-        <UnitPrice>22.8</UnitPrice>
+        <UnitPrice>22.9</UnitPrice>
         <Count>2</Count>
-        <TotalPrice>45.6</TotalPrice>
+        <TotalPrice>45.8</TotalPrice>
       </Goods>
       <Goods>
         <GoodsNumber>fa163a8d-66ee-4ab7-a3f5-41436119e59e</GoodsNumber>
@@ -93,6 +93,30 @@
         <UnitPrice>22.8</UnitPrice>
         <Count>1</Count>
         <TotalPrice>22.8</TotalPrice>
+      </Goods>
+    </Goods>
+  </OrderDetails>
+  <OrderDetails>
+    <OrderNumber>20191218001</OrderNumber>
+    <OrderTime>2019-12-18T00:00:00</OrderTime>
+    <CustomerName>张三</CustomerName>
+    <PhoneNumber>13712345678</PhoneNumber>
+    <Goods>
+      <Goods>
+        <GoodsNumber>3935884a-d688-49af-8366-de090779cb16</GoodsNumber>
+        <TradeName>书本</TradeName>
+        <Type>Windows编程</Type>
+        <UnitPrice>20</UnitPrice>
+        <Count>2</Count>
+        <TotalPrice>40</TotalPrice>
+      </Goods>
+      <Goods>
+        <GoodsNumber>788b28d8-ad25-4f66-a135-e75a334c62fd</GoodsNumber>
+        <TradeName>笔</TradeName>
+        <Type>铅笔</Type>
+        <UnitPrice>1.1</UnitPrice>
+        <Count>10</Count>
+        <TotalPrice>11</TotalPrice>
       </Goods>
     </Goods>
   </OrderDetails>

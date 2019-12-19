@@ -228,10 +228,10 @@ namespace OrderManagementSystem {
 
 		// xslt转化
 		public static void XslTransform(List<OrderDetails> list, string xslt) {
-			ExportDataToXml("OrderListXmlToXSLT.xml");
+			ExportDataToXml(@"./OrderListXmlToXSLT.xml");
 			try {
 				XmlDocument doc = new XmlDocument();
-				doc.Load("OrderListXmlToXSLT.xml");
+				doc.Load(@"./OrderListXmlToXSLT.xml");
 
 				XPathNavigator nav = doc.CreateNavigator();
 				nav.MoveToRoot();
@@ -239,7 +239,7 @@ namespace OrderManagementSystem {
 				XslTransform xt = new XslTransform();
 				xt.Load(xslt);
 
-				FileStream outFileStream = File.Create(@"..\..\..\.\files\Order.html");
+				FileStream outFileStream = File.Create(@"./Order.html");
 				XmlTextWriter writer = new XmlTextWriter(outFileStream, System.Text.Encoding.UTF8);
 
 				xt.Transform(nav, null, writer);

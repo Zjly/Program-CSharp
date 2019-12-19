@@ -11,7 +11,6 @@ E:\Coding\C#\Program\Order Management System\OrderManagementSystem\bin\Release\M
 E:\Coding\C#\Program\Order Management System\OrderManagementSystem\bin\Release\MySql.Data.Entity.EF6.xml
 E:\Coding\C#\Program\Order Management System\OrderManagementSystem\bin\Release\zh-Hans\EntityFramework.resources.dll
 E:\Coding\C#\Program\Order Management System\OrderManagementSystem\bin\Release\zh-Hans\EntityFramework.SqlServer.resources.dll
-E:\Coding\C#\Program\Order Management System\OrderManagementSystem\obj\Release\Order Management System.csprojAssemblyReference.cache
 E:\Coding\C#\Program\Order Management System\OrderManagementSystem\obj\Release\OrderManagementSystem.Add.resources
 E:\Coding\C#\Program\Order Management System\OrderManagementSystem\obj\Release\OrderManagementSystem.Form1.resources
 E:\Coding\C#\Program\Order Management System\OrderManagementSystem\obj\Release\OrderManagementSystem.Properties.Resources.resources
@@ -21,3 +20,7 @@ E:\Coding\C#\Program\Order Management System\OrderManagementSystem\obj\Release\O
 E:\Coding\C#\Program\Order Management System\OrderManagementSystem\obj\Release\Order Management System.csproj.CopyComplete
 E:\Coding\C#\Program\Order Management System\OrderManagementSystem\obj\Release\OrderManagementSystem.exe
 E:\Coding\C#\Program\Order Management System\OrderManagementSystem\obj\Release\OrderManagementSystem.pdb
+E:\Coding\C#\Program\Order Management System\OrderManagementSystem\bin\Release\OrderManagementSystem.exe.manifest
+E:\Coding\C#\Program\Order Management System\OrderManagementSystem\bin\Release\OrderManagementSystem.application
+E:\Coding\C#\Program\Order Management System\OrderManagementSystem\obj\Release\OrderManagementSystem.exe.manifest
+E:\Coding\C#\Program\Order Management System\OrderManagementSystem\obj\Release\OrderManagementSystem.application
